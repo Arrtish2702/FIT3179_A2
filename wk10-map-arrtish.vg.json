@@ -38,7 +38,7 @@
           "color": {
             "field": "population",
             "type": "quantitative",
-            "scale": {"type": "linear", "scheme": "greens"}
+            "scale": {"type": "linear", "scheme": "yellowgreenblue"}
           },
           "tooltip": [
             {"field": "properties.NAME_1", "type": "nominal", "title": "State"},
