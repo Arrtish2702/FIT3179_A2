@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Population of Malaysian States (2020)",
+    "width": 800,
+    "height": 400,
+    "config": {
+      "background": "#a8cde0"
+    },
+    "projection": {"type": "equalEarth"},
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/gadm41_MYS_1.json",
+          "format": {"type": "topojson", "feature": "gadm41_MYS_1"}
+        },
+        "transform": [
+          {
+            "lookup": "properties.NAME_1",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/population_state_with_year_filtered.csv",
+                "format": {"type": "csv"}
+              },
+              "key": "state",
+              "fields": ["population", "year"]
+            }
+          },
+          {
+            "filter": "datum.year == 2020"
+          }
+        ],
+        "mark": {
+          "type": "geoshape",
+          "stroke": "black",       
+          "strokeWidth": 0.5     
+        },
+        "encoding": {
+          "color": {
+            "field": "population",
+            "type": "quantitative",
+            "scale": {"type": "linear", "scheme": "greens"}
+          },
+          "tooltip": [
+            {"field": "properties.NAME_1", "type": "nominal", "title": "State"},
+            {"field": "population", "type": "quantitative", "title": "Population"}
+          ]
+        }
+      }
+    ]
+}
