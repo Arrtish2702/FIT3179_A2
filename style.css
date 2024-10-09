@@ -8,11 +8,11 @@ body {
 .page {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Prevents content overflow */
+    margin-bottom: 3%;
 }
 
 h1, h3 {
@@ -35,7 +35,7 @@ h3 {
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically if needed */
     flex-direction: column; /* Stack items vertically */
-    margin-bottom: 15px; /* Space between rows */
+    padding: 20px;
 }
 
 .vis-item-map {
@@ -55,16 +55,15 @@ h3 {
 }
 
 .vis-item-bar {
-    flex-basis: 85%; /* Now takes up 75% of the width */
     max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
     position: relative; /* Allows for child elements to position correctly */
-    /*height: 100%; /* Set to fill the height of the parent */
+    margin: 0 auto; /* Center the element */
+    margin-bottom: 15px; /* Space below the map */
 }
 
 .description-bar {
-    flex-basis: 15%; /* Now takes up 25% of the width */
     text-align: left;
     font-size: 16px;
     color: #555;

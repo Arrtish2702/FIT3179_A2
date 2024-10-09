@@ -21,21 +21,26 @@
 </head>
 <body>
 
-    <div class="page" style="margin-bottom: 3%;">
+    <div class="page">
         <!-- Page title and description -->
         <h1>Population Shifts in Malaysia: Visualizing Key Trends (1970–2024)</h1>
         <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed bar chart.</p>
     </div>
 
-    <div class="page" style="margin-bottom: 3%;">
+    <div class="page">
         <!-- Container for visualizations (Choropleth map and Bar chart with descriptions) -->
         <div class="vis-container"></div>
             <!-- Choropleth Map and its description -->
             <div class="vis-row">
-            <div class="vis-item-map" id="choropleth_map" style="font-size: 20px;"></div>
-            <div class="description-map">
-                This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
-            </div>
+                <div class="title-map" style="font-size: 30px; margin-bottom: 1%;">
+                    <strong>
+                        Population of Malaysian States (2024)
+                    </strong>
+                </div>
+                <div class="vis-item-map" id="choropleth_map" style="font-size: 20px;"></div>
+                <div class="description-map">
+                    This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
+                </div>
         </div>
     </div>
     
@@ -43,10 +48,10 @@
         <div class="vis-container">
             <!-- Bar Chart and its description -->
             <div class="vis-row">
+                <div class="vis-item-bar" id="bar_chart"></div>
                 <div class="description-bar" style="font-size: 18px;">
                     The bar chart provides a comprehensive view of the population distribution across Malaysian states, focusing on data collected every five years. 
                 </div>
-                <div class="vis-item-bar" id="bar_chart"></div>
             </div>
         </div>
     </div>
