@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population of Malaysian States (2020)",
-    "width": 738,  
-    "height": 386,  
+    "title": "Population of Malaysian States (2024)",
+    "width": 600,
+    "height": 400,
     "config": {
       "background": "#a8cde0"
     },
@@ -24,9 +24,6 @@
               "key": "state",
               "fields": ["population", "year"]
             }
-          },
-          {
-            "filter": "datum.year == 2020"
           }
         ],
         "mark": {
