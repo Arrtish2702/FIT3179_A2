@@ -44,6 +44,8 @@ h3 {
     max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
+    position: relative; /* Allows for child elements to position correctly */
+    height: 100%; /* Set to fill the height of the parent */
 }
 
 .description {
@@ -55,10 +57,10 @@ h3 {
 }
 
 /* Container for map and bar chart */
-#choropleth_map, #bar_chart {
+#choropleth_map {
     width: 100%;  /* Set to 100% to fill its parent container */
-    height: auto; /* Change to auto for dynamic height based on content */
-    max-height: 500px; /* Adjust this if you want a maximum height */
+    height: 100%; /* Set to 100% to fill its parent container */
+    max-height: 500px; /* You can adjust this as needed */
     box-sizing: border-box; /* Include padding/borders in size calculation */
 }
 
