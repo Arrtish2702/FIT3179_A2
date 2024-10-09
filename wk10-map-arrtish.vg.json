@@ -10,7 +10,7 @@
     "layer": [
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/gadm41_MYS_1.json",
+          "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/gadm41_MYS_1.json",
           "format": {"type": "topojson", "feature": "gadm41_MYS_1"}
         },
         "transform": [
@@ -18,7 +18,7 @@
             "lookup": "properties.NAME_1",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/population_state_with_year_filtered.csv",
+                "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year_filtered.csv",
                 "format": {"type": "csv"}
               },
               "key": "state",
