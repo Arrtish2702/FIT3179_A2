@@ -1,54 +1,75 @@
-    body {
-        font-family: 'Source Sans Pro', sans-serif;
-        background-color: #f4f4f9;
-        margin: 0;
-        padding: 0;
-    }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
 
-    .page {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+.page {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    h1, h3 {
-        text-align: center;
-        color: #333;
-    }
+h1, h3 {
+    text-align: center;
+    color: #333;
+}
 
-    h3 {
-        margin-top: 40px;
-    }
+h3 {
+    margin-top: 40px;
+}
 
-    .vis-container {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px;
-    }
+/* Flexbox layout for visualizations */
+.vis-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between the map and bar chart */
+    margin-bottom: 20px;
+}
 
-    /* Separator line */
-    .hr3 {
-        border: 0;
-        height: 2px;
-        background-image: linear-gradient(to right, transparent, #DDD, transparent);
-    }
+.vis-item {
+    flex: 1;
+    min-width: 0; /* Prevents overflow */
+}
 
-    .data-source {
-        text-align: center;
-        margin-top: 40px;
-        font-size: 14px;
-    }
+/* Container for map and bar chart */
+#choropleth_map, #bar_chart {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+}
 
-    .data-source a {
-        color: #1e90ff;
-        text-decoration: none;
-    }
-    
-    .data-source a:hover {
-        text-decoration: underline;
-    }
+/* Description styling */
+.description {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555;
+    max-width: 900px;
+}
+
+/* Separator line */
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #DDD, transparent);
+}
+
+.data-source {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.data-source a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.data-source a:hover {
+    text-decoration: underline;
+}

@@ -27,14 +27,23 @@
         <h1>Population of Malaysian States (2020)</h1>
         <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed bar chart.</p>
 
-        <!-- Container for visualizations -->
+        <!-- Container for visualizations (Map on the left, Bar chart on the right) -->
         <div class="vis-container">
-            <!-- Choropleth Map -->
-            <div id="choropleth_map" style="width: 100%;"></div>
-            <hr class="hr3">
+            <!-- Choropleth Map (left) -->
+            <div class="vis-item" id="choropleth_map"></div>
+            
+            <!-- Bar Chart (right) -->
+            <div class="vis-item" id="bar_chart"></div>
+        </div>
 
-            <!-- Bar Chart -->
-            <div id="bar_chart" style="width: 100%;"></div>
+        <!-- Description for both visualizations -->
+        <div class="description">
+            <strong>Choropleth Map Description:</strong> This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
+        </div>
+        <hr class="hr3">
+
+        <div class="description">
+            <strong>Bar Chart Description:</strong> The bar chart offers a more detailed look at the population of each Malaysian state in 2020. Each bar represents the population size for a specific state, allowing for easy comparison across states. You can hover over the bars to see precise population numbers. States such as Selangor, Sabah, and Sarawak show significantly higher populations compared to smaller states like Perlis and Labuan.
         </div>
 
         <!-- Data source and acknowledgments -->
