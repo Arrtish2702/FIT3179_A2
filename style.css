@@ -56,9 +56,9 @@ h3 {
 
 /* Container for map and bar chart */
 #choropleth_map, #bar_chart {
-    width: 100%;
-    max-width: 100%; /* Ensures it stays within the bounds of its container */
-    height: 500px; /* Adjust height as needed */
+    width: 100%;  /* Set to 100% to fill its parent container */
+    height: auto; /* Change to auto for dynamic height based on content */
+    max-height: 500px; /* Adjust this if you want a maximum height */
     box-sizing: border-box; /* Include padding/borders in size calculation */
 }
 
