@@ -1,17 +1,810 @@
 state,date,sex,age,ethnicity,population,year
+Johor,1/1/1970,both,overall,overall,1325.6,1970
+Johor,1/1/1971,both,overall,overall,1355.4,1971
+Johor,1/1/1972,both,overall,overall,1385.3,1972
+Johor,1/1/1973,both,overall,overall,1414.5,1973
+Johor,1/1/1974,both,overall,overall,1444.4,1974
+Johor,1/1/1975,both,overall,overall,1477,1975
+Johor,1/1/1976,both,overall,overall,1508.4,1976
+Johor,1/1/1977,both,overall,overall,1541.9,1977
+Johor,1/1/1978,both,overall,overall,1573.4,1978
+Johor,1/1/1979,both,overall,overall,1606.4,1979
+Johor,1/1/1980,both,overall,overall,1646.2,1980
+Johor,1/1/1981,both,overall,overall,1689.3,1981
+Johor,1/1/1982,both,overall,overall,1734.6,1982
+Johor,1/1/1983,both,overall,overall,1780.2,1983
+Johor,1/1/1984,both,overall,overall,1825.8,1984
+Johor,1/1/1985,both,overall,overall,1875.5,1985
+Johor,1/1/1986,both,overall,overall,1926.5,1986
+Johor,1/1/1987,both,overall,overall,1977.9,1987
+Johor,1/1/1988,both,overall,overall,2031,1988
+Johor,1/1/1989,both,overall,overall,2085.5,1989
+Johor,1/1/1990,both,overall,overall,2139.6,1990
+Johor,1/1/1991,both,overall,overall,2188.1,1991
+Johor,1/1/1992,both,overall,overall,2249.1,1992
+Johor,1/1/1993,both,overall,overall,2313.4,1993
+Johor,1/1/1994,both,overall,overall,2378.1,1994
+Johor,1/1/1995,both,overall,overall,2441.4,1995
+Johor,1/1/1996,both,overall,overall,2503.9,1996
+Johor,1/1/1997,both,overall,overall,2567.5,1997
+Johor,1/1/1998,both,overall,overall,2631.7,1998
+Johor,1/1/1999,both,overall,overall,2699.4,1999
+Johor,1/1/2000,both,overall,overall,2762.5,2000
+Johor,1/1/2001,both,overall,overall,2829.9,2001
+Johor,1/1/2002,both,overall,overall,2893.6,2002
+Johor,1/1/2003,both,overall,overall,2954,2003
+Johor,1/1/2004,both,overall,overall,3014.6,2004
+Johor,1/1/2005,both,overall,overall,3074.4,2005
+Johor,1/1/2006,both,overall,overall,3134.4,2006
+Johor,1/1/2007,both,overall,overall,3193.5,2007
+Johor,1/1/2008,both,overall,overall,3252.3,2008
+Johor,1/1/2009,both,overall,overall,3309.4,2009
+Johor,1/1/2010,both,overall,overall,3362.9,2010
+Johor,1/1/2011,both,overall,overall,3410.5,2011
+Johor,1/1/2012,both,overall,overall,3450.4,2012
+Johor,1/1/2013,both,overall,overall,3474.4,2013
+Johor,1/1/2014,both,overall,overall,3559.8,2014
+Johor,1/1/2015,both,overall,overall,3610.3,2015
+Johor,1/1/2016,both,overall,overall,3651.8,2016
+Johor,1/1/2017,both,overall,overall,3697,2017
+Johor,1/1/2018,both,overall,overall,3749.4,2018
+Johor,1/1/2019,both,overall,overall,3761.2,2019
 Johor,1/1/2020,both,overall,overall,4009.7,2020
+Johor,1/1/2021,both,overall,overall,4020,2021
+Johor,1/1/2022,both,overall,overall,4028.3,2022
+Johor,1/1/2023,both,overall,overall,4107.2,2023
+Johor,1/1/2024,both,overall,overall,4186.3,2024
+Kedah,1/1/1970,both,overall,overall,989.5,1970
+Kedah,1/1/1971,both,overall,overall,1003.9,1971
+Kedah,1/1/1972,both,overall,overall,1017.3,1972
+Kedah,1/1/1973,both,overall,overall,1029,1973
+Kedah,1/1/1974,both,overall,overall,1041.1,1974
+Kedah,1/1/1975,both,overall,overall,1054.9,1975
+Kedah,1/1/1976,both,overall,overall,1065.4,1976
+Kedah,1/1/1977,both,overall,overall,1079.8,1977
+Kedah,1/1/1978,both,overall,overall,1090.9,1978
+Kedah,1/1/1979,both,overall,overall,1103.4,1979
+Kedah,1/1/1980,both,overall,overall,1119.9,1980
+Kedah,1/1/1981,both,overall,overall,1140.2,1981
+Kedah,1/1/1982,both,overall,overall,1161.8,1982
+Kedah,1/1/1983,both,overall,overall,1183.9,1983
+Kedah,1/1/1984,both,overall,overall,1206.1,1984
+Kedah,1/1/1985,both,overall,overall,1230.8,1985
+Kedah,1/1/1986,both,overall,overall,1256.2,1986
+Kedah,1/1/1987,both,overall,overall,1281.1,1987
+Kedah,1/1/1988,both,overall,overall,1305.4,1988
+Kedah,1/1/1989,both,overall,overall,1328.8,1989
+Kedah,1/1/1990,both,overall,overall,1352.2,1990
+Kedah,1/1/1991,both,overall,overall,1371.3,1991
+Kedah,1/1/1992,both,overall,overall,1402.1,1992
+Kedah,1/1/1993,both,overall,overall,1434.1,1993
+Kedah,1/1/1994,both,overall,overall,1466.6,1994
+Kedah,1/1/1995,both,overall,overall,1500.2,1995
+Kedah,1/1/1996,both,overall,overall,1533.2,1996
+Kedah,1/1/1997,both,overall,overall,1566.9,1997
+Kedah,1/1/1998,both,overall,overall,1601.2,1998
+Kedah,1/1/1999,both,overall,overall,1636.5,1999
+Kedah,1/1/2000,both,overall,overall,1671.9,2000
+Kedah,1/1/2001,both,overall,overall,1703.9,2001
+Kedah,1/1/2002,both,overall,overall,1734.8,2002
+Kedah,1/1/2003,both,overall,overall,1763.7,2003
+Kedah,1/1/2004,both,overall,overall,1792.4,2004
+Kedah,1/1/2005,both,overall,overall,1820.3,2005
+Kedah,1/1/2006,both,overall,overall,1847.5,2006
+Kedah,1/1/2007,both,overall,overall,1874.2,2007
+Kedah,1/1/2008,both,overall,overall,1900.2,2008
+Kedah,1/1/2009,both,overall,overall,1925.3,2009
+Kedah,1/1/2010,both,overall,overall,1949.3,2010
+Kedah,1/1/2011,both,overall,overall,1971.8,2011
+Kedah,1/1/2012,both,overall,overall,2001.1,2012
+Kedah,1/1/2013,both,overall,overall,2039.8,2013
+Kedah,1/1/2014,both,overall,overall,2062.7,2014
+Kedah,1/1/2015,both,overall,overall,2096.5,2015
+Kedah,1/1/2016,both,overall,overall,2119.7,2016
+Kedah,1/1/2017,both,overall,overall,2143.9,2017
+Kedah,1/1/2018,both,overall,overall,2163,2018
+Kedah,1/1/2019,both,overall,overall,2173.7,2019
 Kedah,1/1/2020,both,overall,overall,2131.4,2020
+Kedah,1/1/2021,both,overall,overall,2151.7,2021
+Kedah,1/1/2022,both,overall,overall,2163.1,2022
+Kedah,1/1/2023,both,overall,overall,2189.3,2023
+Kedah,1/1/2024,both,overall,overall,2217.5,2024
+Kelantan,1/1/1970,both,overall,overall,707.3,1970
+Kelantan,1/1/1971,both,overall,overall,723.6,1971
+Kelantan,1/1/1972,both,overall,overall,741.1,1972
+Kelantan,1/1/1973,both,overall,overall,759.5,1973
+Kelantan,1/1/1974,both,overall,overall,776.8,1974
+Kelantan,1/1/1975,both,overall,overall,796.1,1975
+Kelantan,1/1/1976,both,overall,overall,814.1,1976
+Kelantan,1/1/1977,both,overall,overall,834.2,1977
+Kelantan,1/1/1978,both,overall,overall,852.5,1978
+Kelantan,1/1/1979,both,overall,overall,873.7,1979
+Kelantan,1/1/1980,both,overall,overall,895.7,1980
+Kelantan,1/1/1981,both,overall,overall,920.5,1981
+Kelantan,1/1/1982,both,overall,overall,947.1,1982
+Kelantan,1/1/1983,both,overall,overall,974.6,1983
+Kelantan,1/1/1984,both,overall,overall,1002.6,1984
+Kelantan,1/1/1985,both,overall,overall,1032.9,1985
+Kelantan,1/1/1986,both,overall,overall,1062.8,1986
+Kelantan,1/1/1987,both,overall,overall,1093.2,1987
+Kelantan,1/1/1988,both,overall,overall,1124,1988
+Kelantan,1/1/1989,both,overall,overall,1154.5,1989
+Kelantan,1/1/1990,both,overall,overall,1187.2,1990
+Kelantan,1/1/1991,both,overall,overall,1227,1991
+Kelantan,1/1/1992,both,overall,overall,1243.5,1992
+Kelantan,1/1/1993,both,overall,overall,1259.1,1993
+Kelantan,1/1/1994,both,overall,overall,1273.7,1994
+Kelantan,1/1/1995,both,overall,overall,1287.7,1995
+Kelantan,1/1/1996,both,overall,overall,1301.1,1996
+Kelantan,1/1/1997,both,overall,overall,1314.4,1997
+Kelantan,1/1/1998,both,overall,overall,1328.9,1998
+Kelantan,1/1/1999,both,overall,overall,1344.7,1999
+Kelantan,1/1/2000,both,overall,overall,1361.4,2000
+Kelantan,1/1/2001,both,overall,overall,1390,2001
+Kelantan,1/1/2002,both,overall,overall,1416.7,2002
+Kelantan,1/1/2003,both,overall,overall,1440.5,2003
+Kelantan,1/1/2004,both,overall,overall,1463.8,2004
+Kelantan,1/1/2005,both,overall,overall,1486.3,2005
+Kelantan,1/1/2006,both,overall,overall,1507.6,2006
+Kelantan,1/1/2007,both,overall,overall,1529.1,2007
+Kelantan,1/1/2008,both,overall,overall,1549.8,2008
+Kelantan,1/1/2009,both,overall,overall,1570,2009
+Kelantan,1/1/2010,both,overall,overall,1589.9,2010
+Kelantan,1/1/2011,both,overall,overall,1618.8,2011
+Kelantan,1/1/2012,both,overall,overall,1651,2012
+Kelantan,1/1/2013,both,overall,overall,1683.5,2013
+Kelantan,1/1/2014,both,overall,overall,1723.4,2014
+Kelantan,1/1/2015,both,overall,overall,1760.6,2015
+Kelantan,1/1/2016,both,overall,overall,1796.7,2016
+Kelantan,1/1/2017,both,overall,overall,1829,2017
+Kelantan,1/1/2018,both,overall,overall,1860.5,2018
+Kelantan,1/1/2019,both,overall,overall,1883.8,2019
 Kelantan,1/1/2020,both,overall,overall,1792.5,2020
+Kelantan,1/1/2021,both,overall,overall,1812.3,2021
+Kelantan,1/1/2022,both,overall,overall,1830.6,2022
+Kelantan,1/1/2023,both,overall,overall,1859.8,2023
+Kelantan,1/1/2024,both,overall,overall,1888.5,2024
+Melaka,1/1/1970,both,overall,overall,419.4,1970
+Melaka,1/1/1971,both,overall,overall,424.9,1971
+Melaka,1/1/1972,both,overall,overall,429.9,1972
+Melaka,1/1/1973,both,overall,overall,434.2,1973
+Melaka,1/1/1974,both,overall,overall,438.1,1974
+Melaka,1/1/1975,both,overall,overall,443.1,1975
+Melaka,1/1/1976,both,overall,overall,447.3,1976
+Melaka,1/1/1977,both,overall,overall,452.1,1977
+Melaka,1/1/1978,both,overall,overall,456.2,1978
+Melaka,1/1/1979,both,overall,overall,460.8,1979
+Melaka,1/1/1980,both,overall,overall,466.9,1980
+Melaka,1/1/1981,both,overall,overall,472.6,1981
+Melaka,1/1/1982,both,overall,overall,478.7,1982
+Melaka,1/1/1983,both,overall,overall,484.8,1983
+Melaka,1/1/1984,both,overall,overall,491.2,1984
+Melaka,1/1/1985,both,overall,overall,498.6,1985
+Melaka,1/1/1986,both,overall,overall,505.6,1986
+Melaka,1/1/1987,both,overall,overall,513.1,1987
+Melaka,1/1/1988,both,overall,overall,520.5,1988
+Melaka,1/1/1989,both,overall,overall,527.4,1989
+Melaka,1/1/1990,both,overall,overall,534.2,1990
+Melaka,1/1/1991,both,overall,overall,540.2,1991
+Melaka,1/1/1992,both,overall,overall,551.8,1992
+Melaka,1/1/1993,both,overall,overall,563.3,1993
+Melaka,1/1/1994,both,overall,overall,574.9,1994
+Melaka,1/1/1995,both,overall,overall,586.1,1995
+Melaka,1/1/1996,both,overall,overall,597.3,1996
+Melaka,1/1/1997,both,overall,overall,608.8,1997
+Melaka,1/1/1998,both,overall,overall,620.5,1998
+Melaka,1/1/1999,both,overall,overall,633.1,1999
+Melaka,1/1/2000,both,overall,overall,646.6,2000
+Melaka,1/1/2001,both,overall,overall,665.8,2001
+Melaka,1/1/2002,both,overall,overall,684.1,2002
+Melaka,1/1/2003,both,overall,overall,701.8,2003
+Melaka,1/1/2004,both,overall,overall,719.8,2004
+Melaka,1/1/2005,both,overall,overall,737.3,2005
+Melaka,1/1/2006,both,overall,overall,755,2006
+Melaka,1/1/2007,both,overall,overall,772.8,2007
+Melaka,1/1/2008,both,overall,overall,790.5,2008
+Melaka,1/1/2009,both,overall,overall,807.8,2009
+Melaka,1/1/2010,both,overall,overall,823.6,2010
+Melaka,1/1/2011,both,overall,overall,833.2,2011
+Melaka,1/1/2012,both,overall,overall,843.2,2012
+Melaka,1/1/2013,both,overall,overall,856.7,2013
+Melaka,1/1/2014,both,overall,overall,871.7,2014
+Melaka,1/1/2015,both,overall,overall,889,2015
+Melaka,1/1/2016,both,overall,overall,901.1,2016
+Melaka,1/1/2017,both,overall,overall,913.1,2017
+Melaka,1/1/2018,both,overall,overall,922.4,2018
+Melaka,1/1/2019,both,overall,overall,928.4,2019
 Melaka,1/1/2020,both,overall,overall,998.4,2020
+Melaka,1/1/2021,both,overall,overall,1004.5,2021
+Melaka,1/1/2022,both,overall,overall,1008.6,2022
+Melaka,1/1/2023,both,overall,overall,1028.3,2023
+Melaka,1/1/2024,both,overall,overall,1047.1,2024
+Negeri Sembilan,1/1/1970,both,overall,overall,500.4,1970
+Negeri Sembilan,1/1/1971,both,overall,overall,508.2,1971
+Negeri Sembilan,1/1/1972,both,overall,overall,515.9,1972
+Negeri Sembilan,1/1/1973,both,overall,overall,522.8,1973
+Negeri Sembilan,1/1/1974,both,overall,overall,530,1974
+Negeri Sembilan,1/1/1975,both,overall,overall,537.6,1975
+Negeri Sembilan,1/1/1976,both,overall,overall,544.3,1976
+Negeri Sembilan,1/1/1977,both,overall,overall,551.8,1977
+Negeri Sembilan,1/1/1978,both,overall,overall,558.7,1978
+Negeri Sembilan,1/1/1979,both,overall,overall,566.4,1979
+Negeri Sembilan,1/1/1980,both,overall,overall,576.7,1980
+Negeri Sembilan,1/1/1981,both,overall,overall,587.2,1981
+Negeri Sembilan,1/1/1982,both,overall,overall,598.9,1982
+Negeri Sembilan,1/1/1983,both,overall,overall,611.3,1983
+Negeri Sembilan,1/1/1984,both,overall,overall,623.8,1984
+Negeri Sembilan,1/1/1985,both,overall,overall,638.4,1985
+Negeri Sembilan,1/1/1986,both,overall,overall,653.7,1986
+Negeri Sembilan,1/1/1987,both,overall,overall,668.9,1987
+Negeri Sembilan,1/1/1988,both,overall,overall,683.5,1988
+Negeri Sembilan,1/1/1989,both,overall,overall,698.2,1989
+Negeri Sembilan,1/1/1990,both,overall,overall,713.4,1990
+Negeri Sembilan,1/1/1991,both,overall,overall,726.2,1991
+Negeri Sembilan,1/1/1992,both,overall,overall,741.7,1992
+Negeri Sembilan,1/1/1993,both,overall,overall,757,1993
+Negeri Sembilan,1/1/1994,both,overall,overall,772.4,1994
+Negeri Sembilan,1/1/1995,both,overall,overall,787.5,1995
+Negeri Sembilan,1/1/1996,both,overall,overall,802.6,1996
+Negeri Sembilan,1/1/1997,both,overall,overall,818,1997
+Negeri Sembilan,1/1/1998,both,overall,overall,833.5,1998
+Negeri Sembilan,1/1/1999,both,overall,overall,849.5,1999
+Negeri Sembilan,1/1/2000,both,overall,overall,866.1,2000
+Negeri Sembilan,1/1/2001,both,overall,overall,883.7,2001
+Negeri Sembilan,1/1/2002,both,overall,overall,900.3,2002
+Negeri Sembilan,1/1/2003,both,overall,overall,916.8,2003
+Negeri Sembilan,1/1/2004,both,overall,overall,933.7,2004
+Negeri Sembilan,1/1/2005,both,overall,overall,950.3,2005
+Negeri Sembilan,1/1/2006,both,overall,overall,967,2006
+Negeri Sembilan,1/1/2007,both,overall,overall,983.5,2007
+Negeri Sembilan,1/1/2008,both,overall,overall,999.6,2008
+Negeri Sembilan,1/1/2009,both,overall,overall,1014.9,2009
+Negeri Sembilan,1/1/2010,both,overall,overall,1029.5,2010
+Negeri Sembilan,1/1/2011,both,overall,overall,1047.4,2011
+Negeri Sembilan,1/1/2012,both,overall,overall,1057.7,2012
+Negeri Sembilan,1/1/2013,both,overall,overall,1072.2,2013
+Negeri Sembilan,1/1/2014,both,overall,overall,1079.6,2014
+Negeri Sembilan,1/1/2015,both,overall,overall,1088.8,2015
+Negeri Sembilan,1/1/2016,both,overall,overall,1099.3,2016
+Negeri Sembilan,1/1/2017,both,overall,overall,1114,2017
+Negeri Sembilan,1/1/2018,both,overall,overall,1122.9,2018
+Negeri Sembilan,1/1/2019,both,overall,overall,1126.2,2019
 Negeri Sembilan,1/1/2020,both,overall,overall,1200,2020
+Negeri Sembilan,1/1/2021,both,overall,overall,1204.2,2021
+Negeri Sembilan,1/1/2022,both,overall,overall,1207.9,2022
+Negeri Sembilan,1/1/2023,both,overall,overall,1224.9,2023
+Negeri Sembilan,1/1/2024,both,overall,overall,1240.1,2024
+Pahang,1/1/1970,both,overall,overall,523.8,1970
+Pahang,1/1/1971,both,overall,overall,548.4,1971
+Pahang,1/1/1972,both,overall,overall,574,1972
+Pahang,1/1/1973,both,overall,overall,599.3,1973
+Pahang,1/1/1974,both,overall,overall,626,1974
+Pahang,1/1/1975,both,overall,overall,653.4,1975
+Pahang,1/1/1976,both,overall,overall,680.4,1976
+Pahang,1/1/1977,both,overall,overall,709.5,1977
+Pahang,1/1/1978,both,overall,overall,738.2,1978
+Pahang,1/1/1979,both,overall,overall,768.4,1979
+Pahang,1/1/1980,both,overall,overall,802.1,1980
+Pahang,1/1/1981,both,overall,overall,820.6,1981
+Pahang,1/1/1982,both,overall,overall,842.3,1982
+Pahang,1/1/1983,both,overall,overall,864.8,1983
+Pahang,1/1/1984,both,overall,overall,888.7,1984
+Pahang,1/1/1985,both,overall,overall,915.2,1985
+Pahang,1/1/1986,both,overall,overall,943.5,1986
+Pahang,1/1/1987,both,overall,overall,971,1987
+Pahang,1/1/1988,both,overall,overall,998.4,1988
+Pahang,1/1/1989,both,overall,overall,1025.9,1989
+Pahang,1/1/1990,both,overall,overall,1054.3,1990
+Pahang,1/1/1991,both,overall,overall,1079.6,1991
+Pahang,1/1/1992,both,overall,overall,1104.2,1992
+Pahang,1/1/1993,both,overall,overall,1128,1993
+Pahang,1/1/1994,both,overall,overall,1152.3,1994
+Pahang,1/1/1995,both,overall,overall,1176.5,1995
+Pahang,1/1/1996,both,overall,overall,1200.6,1996
+Pahang,1/1/1997,both,overall,overall,1224.7,1997
+Pahang,1/1/1998,both,overall,overall,1248.8,1998
+Pahang,1/1/1999,both,overall,overall,1272.5,1999
+Pahang,1/1/2000,both,overall,overall,1295.8,2000
+Pahang,1/1/2001,both,overall,overall,1317.3,2001
+Pahang,1/1/2002,both,overall,overall,1338.7,2002
+Pahang,1/1/2003,both,overall,overall,1360,2003
+Pahang,1/1/2004,both,overall,overall,1380.2,2004
+Pahang,1/1/2005,both,overall,overall,1400.8,2005
+Pahang,1/1/2006,both,overall,overall,1421.2,2006
+Pahang,1/1/2007,both,overall,overall,1441.4,2007
+Pahang,1/1/2008,both,overall,overall,1461.6,2008
+Pahang,1/1/2009,both,overall,overall,1481.7,2009
+Pahang,1/1/2010,both,overall,overall,1501.9,2010
+Pahang,1/1/2011,both,overall,overall,1526.8,2011
+Pahang,1/1/2012,both,overall,overall,1547.1,2012
+Pahang,1/1/2013,both,overall,overall,1568.7,2013
+Pahang,1/1/2014,both,overall,overall,1591.7,2014
+Pahang,1/1/2015,both,overall,overall,1607.9,2015
+Pahang,1/1/2016,both,overall,overall,1626.7,2016
+Pahang,1/1/2017,both,overall,overall,1647,2017
+Pahang,1/1/2018,both,overall,overall,1664.7,2018
+Pahang,1/1/2019,both,overall,overall,1671.4,2019
 Pahang,1/1/2020,both,overall,overall,1591.3,2020
+Pahang,1/1/2021,both,overall,overall,1601.5,2021
+Pahang,1/1/2022,both,overall,overall,1614.3,2022
+Pahang,1/1/2023,both,overall,overall,1643.2,2023
+Pahang,1/1/2024,both,overall,overall,1668.2,2024
+Perak,1/1/1970,both,overall,overall,1631.5,1970
+Perak,1/1/1971,both,overall,overall,1650.9,1971
+Perak,1/1/1972,both,overall,overall,1669.3,1972
+Perak,1/1/1973,both,overall,overall,1686,1973
+Perak,1/1/1974,both,overall,overall,1702.7,1974
+Perak,1/1/1975,both,overall,overall,1720.9,1975
+Perak,1/1/1976,both,overall,overall,1736.7,1976
+Perak,1/1/1977,both,overall,overall,1755.6,1977
+Perak,1/1/1978,both,overall,overall,1771.5,1978
+Perak,1/1/1979,both,overall,overall,1789.1,1979
+Perak,1/1/1980,both,overall,overall,1807.4,1980
+Perak,1/1/1981,both,overall,overall,1838.2,1981
+Perak,1/1/1982,both,overall,overall,1866.8,1982
+Perak,1/1/1983,both,overall,overall,1891.1,1983
+Perak,1/1/1984,both,overall,overall,1912.3,1984
+Perak,1/1/1985,both,overall,overall,1931.5,1985
+Perak,1/1/1986,both,overall,overall,1950.8,1986
+Perak,1/1/1987,both,overall,overall,1967.5,1987
+Perak,1/1/1988,both,overall,overall,1979.5,1988
+Perak,1/1/1989,both,overall,overall,1987.7,1989
+Perak,1/1/1990,both,overall,overall,1992.9,1990
+Perak,1/1/1991,both,overall,overall,1995.3,1991
+Perak,1/1/1992,both,overall,overall,2007.1,1992
+Perak,1/1/1993,both,overall,overall,2018.4,1993
+Perak,1/1/1994,both,overall,overall,2028.4,1994
+Perak,1/1/1995,both,overall,overall,2038.1,1995
+Perak,1/1/1996,both,overall,overall,2047,1996
+Perak,1/1/1997,both,overall,overall,2055.3,1997
+Perak,1/1/1998,both,overall,overall,2066.2,1998
+Perak,1/1/1999,both,overall,overall,2076.7,1999
+Perak,1/1/2000,both,overall,overall,2091.7,2000
+Perak,1/1/2001,both,overall,overall,2129,2001
+Perak,1/1/2002,both,overall,overall,2161.8,2002
+Perak,1/1/2003,both,overall,overall,2192.1,2003
+Perak,1/1/2004,both,overall,overall,2222.1,2004
+Perak,1/1/2005,both,overall,overall,2251.1,2005
+Perak,1/1/2006,both,overall,overall,2279.3,2006
+Perak,1/1/2007,both,overall,overall,2306.4,2007
+Perak,1/1/2008,both,overall,overall,2331.6,2008
+Perak,1/1/2009,both,overall,overall,2355.7,2009
+Perak,1/1/2010,both,overall,overall,2379,2010
+Perak,1/1/2011,both,overall,overall,2402.7,2011
+Perak,1/1/2012,both,overall,overall,2427,2012
+Perak,1/1/2013,both,overall,overall,2447.2,2013
+Perak,1/1/2014,both,overall,overall,2458.8,2014
+Perak,1/1/2015,both,overall,overall,2466.9,2015
+Perak,1/1/2016,both,overall,overall,2482.1,2016
+Perak,1/1/2017,both,overall,overall,2493.2,2017
+Perak,1/1/2018,both,overall,overall,2503.5,2018
+Perak,1/1/2019,both,overall,overall,2508.8,2019
 Perak,1/1/2020,both,overall,overall,2496,2020
+Perak,1/1/2021,both,overall,overall,2515.8,2021
+Perak,1/1/2022,both,overall,overall,2514.4,2022
+Perak,1/1/2023,both,overall,overall,2541.2,2023
+Perak,1/1/2024,both,overall,overall,2569.6,2024
+Perlis,1/1/1970,both,overall,overall,125.5,1970
+Perlis,1/1/1971,both,overall,overall,127.4,1971
+Perlis,1/1/1972,both,overall,overall,129.7,1972
+Perlis,1/1/1973,both,overall,overall,131.7,1973
+Perlis,1/1/1974,both,overall,overall,133.8,1974
+Perlis,1/1/1975,both,overall,overall,136.2,1975
+Perlis,1/1/1976,both,overall,overall,138.3,1976
+Perlis,1/1/1977,both,overall,overall,141,1977
+Perlis,1/1/1978,both,overall,overall,143.2,1978
+Perlis,1/1/1979,both,overall,overall,145.8,1979
+Perlis,1/1/1980,both,overall,overall,148.7,1980
+Perlis,1/1/1981,both,overall,overall,151.6,1981
+Perlis,1/1/1982,both,overall,overall,154.9,1982
+Perlis,1/1/1983,both,overall,overall,158.2,1983
+Perlis,1/1/1984,both,overall,overall,161.7,1984
+Perlis,1/1/1985,both,overall,overall,165.9,1985
+Perlis,1/1/1986,both,overall,overall,170.2,1986
+Perlis,1/1/1987,both,overall,overall,174.5,1987
+Perlis,1/1/1988,both,overall,overall,178.8,1988
+Perlis,1/1/1989,both,overall,overall,182.9,1989
+Perlis,1/1/1990,both,overall,overall,187,1990
+Perlis,1/1/1991,both,overall,overall,190.7,1991
+Perlis,1/1/1992,both,overall,overall,192.7,1992
+Perlis,1/1/1993,both,overall,overall,194.7,1993
+Perlis,1/1/1994,both,overall,overall,196.7,1994
+Perlis,1/1/1995,both,overall,overall,198.8,1995
+Perlis,1/1/1996,both,overall,overall,200.4,1996
+Perlis,1/1/1997,both,overall,overall,202.1,1997
+Perlis,1/1/1998,both,overall,overall,203.8,1998
+Perlis,1/1/1999,both,overall,overall,205.7,1999
+Perlis,1/1/2000,both,overall,overall,207.6,2000
+Perlis,1/1/2001,both,overall,overall,210.4,2001
+Perlis,1/1/2002,both,overall,overall,213.2,2002
+Perlis,1/1/2003,both,overall,overall,216,2003
+Perlis,1/1/2004,both,overall,overall,218.8,2004
+Perlis,1/1/2005,both,overall,overall,221.6,2005
+Perlis,1/1/2006,both,overall,overall,224.4,2006
+Perlis,1/1/2007,both,overall,overall,227.2,2007
+Perlis,1/1/2008,both,overall,overall,230.1,2008
+Perlis,1/1/2009,both,overall,overall,233,2009
+Perlis,1/1/2010,both,overall,overall,235.8,2010
+Perlis,1/1/2011,both,overall,overall,237.3,2011
+Perlis,1/1/2012,both,overall,overall,239.4,2012
+Perlis,1/1/2013,both,overall,overall,242.1,2013
+Perlis,1/1/2014,both,overall,overall,245.1,2014
+Perlis,1/1/2015,both,overall,overall,248.5,2015
+Perlis,1/1/2016,both,overall,overall,251,2016
+Perlis,1/1/2017,both,overall,overall,252,2017
+Perlis,1/1/2018,both,overall,overall,253.5,2018
+Perlis,1/1/2019,both,overall,overall,254,2019
 Perlis,1/1/2020,both,overall,overall,284.9,2020
+Perlis,1/1/2021,both,overall,overall,287.6,2021
+Perlis,1/1/2022,both,overall,overall,289.8,2022
+Perlis,1/1/2023,both,overall,overall,293.1,2023
+Perlis,1/1/2024,both,overall,overall,296.8,2024
+Pulau Pinang,1/1/1970,both,overall,overall,808.6,1970
+Pulau Pinang,1/1/1971,both,overall,overall,823.7,1971
+Pulau Pinang,1/1/1972,both,overall,overall,838.9,1972
+Pulau Pinang,1/1/1973,both,overall,overall,852.9,1973
+Pulau Pinang,1/1/1974,both,overall,overall,866.7,1974
+Pulau Pinang,1/1/1975,both,overall,overall,881.7,1975
+Pulau Pinang,1/1/1976,both,overall,overall,896.4,1976
+Pulau Pinang,1/1/1977,both,overall,overall,912.2,1977
+Pulau Pinang,1/1/1978,both,overall,overall,925.7,1978
+Pulau Pinang,1/1/1979,both,overall,overall,940.4,1979
+Pulau Pinang,1/1/1980,both,overall,overall,960.7,1980
+Pulau Pinang,1/1/1981,both,overall,overall,975.4,1981
+Pulau Pinang,1/1/1982,both,overall,overall,990.9,1982
+Pulau Pinang,1/1/1983,both,overall,overall,1006.2,1983
+Pulau Pinang,1/1/1984,both,overall,overall,1021.1,1984
+Pulau Pinang,1/1/1985,both,overall,overall,1037.9,1985
+Pulau Pinang,1/1/1986,both,overall,overall,1054.8,1986
+Pulau Pinang,1/1/1987,both,overall,overall,1070.5,1987
+Pulau Pinang,1/1/1988,both,overall,overall,1086.6,1988
+Pulau Pinang,1/1/1989,both,overall,overall,1103.4,1989
+Pulau Pinang,1/1/1990,both,overall,overall,1118.5,1990
+Pulau Pinang,1/1/1991,both,overall,overall,1133.6,1991
+Pulau Pinang,1/1/1992,both,overall,overall,1154,1992
+Pulau Pinang,1/1/1993,both,overall,overall,1174.7,1993
+Pulau Pinang,1/1/1994,both,overall,overall,1195.9,1994
+Pulau Pinang,1/1/1995,both,overall,overall,1216.6,1995
+Pulau Pinang,1/1/1996,both,overall,overall,1237.5,1996
+Pulau Pinang,1/1/1997,both,overall,overall,1259,1997
+Pulau Pinang,1/1/1998,both,overall,overall,1282.7,1998
+Pulau Pinang,1/1/1999,both,overall,overall,1307.5,1999
+Pulau Pinang,1/1/2000,both,overall,overall,1332.7,2000
+Pulau Pinang,1/1/2001,both,overall,overall,1361,2001
+Pulau Pinang,1/1/2002,both,overall,overall,1387.3,2002
+Pulau Pinang,1/1/2003,both,overall,overall,1412.2,2003
+Pulau Pinang,1/1/2004,both,overall,overall,1436.6,2004
+Pulau Pinang,1/1/2005,both,overall,overall,1460.4,2005
+Pulau Pinang,1/1/2006,both,overall,overall,1484.1,2006
+Pulau Pinang,1/1/2007,both,overall,overall,1507.8,2007
+Pulau Pinang,1/1/2008,both,overall,overall,1531.3,2008
+Pulau Pinang,1/1/2009,both,overall,overall,1554.3,2009
+Pulau Pinang,1/1/2010,both,overall,overall,1575.9,2010
+Pulau Pinang,1/1/2011,both,overall,overall,1601,2011
+Pulau Pinang,1/1/2012,both,overall,overall,1623.2,2012
+Pulau Pinang,1/1/2013,both,overall,overall,1662.6,2013
+Pulau Pinang,1/1/2014,both,overall,overall,1678.1,2014
+Pulau Pinang,1/1/2015,both,overall,overall,1698.1,2015
+Pulau Pinang,1/1/2016,both,overall,overall,1717.7,2016
+Pulau Pinang,1/1/2017,both,overall,overall,1744.1,2017
+Pulau Pinang,1/1/2018,both,overall,overall,1762.8,2018
+Pulau Pinang,1/1/2019,both,overall,overall,1768.8,2019
 Pulau Pinang,1/1/2020,both,overall,overall,1740.4,2020
+Pulau Pinang,1/1/2021,both,overall,overall,1740,2021
+Pulau Pinang,1/1/2022,both,overall,overall,1740.9,2022
+Pulau Pinang,1/1/2023,both,overall,overall,1772.6,2023
+Pulau Pinang,1/1/2024,both,overall,overall,1800.4,2024
+Sabah,1/1/1970,both,overall,overall,698.1,1970
+Sabah,1/1/1971,both,overall,overall,728.1,1971
+Sabah,1/1/1972,both,overall,overall,759.5,1972
+Sabah,1/1/1973,both,overall,overall,792.4,1973
+Sabah,1/1/1974,both,overall,overall,826.9,1974
+Sabah,1/1/1975,both,overall,overall,863,1975
+Sabah,1/1/1976,both,overall,overall,898.1,1976
+Sabah,1/1/1977,both,overall,overall,934.8,1977
+Sabah,1/1/1978,both,overall,overall,973.2,1978
+Sabah,1/1/1979,both,overall,overall,1013.3,1979
+Sabah,1/1/1980,both,overall,overall,1055.1,1980
+Sabah,1/1/1981,both,overall,overall,1119.6,1981
+Sabah,1/1/1982,both,overall,overall,1186.5,1982
+Sabah,1/1/1983,both,overall,overall,1255.1,1983
+Sabah,1/1/1984,both,overall,overall,1325.7,1984
+Sabah,1/1/1985,both,overall,overall,1398.7,1985
+Sabah,1/1/1986,both,overall,overall,1474.4,1986
+Sabah,1/1/1987,both,overall,overall,1550.8,1987
+Sabah,1/1/1988,both,overall,overall,1629.5,1988
+Sabah,1/1/1989,both,overall,overall,1708.9,1989
+Sabah,1/1/1990,both,overall,overall,1787.6,1990
+Sabah,1/1/1991,both,overall,overall,1814.5,1991
+Sabah,1/1/1992,both,overall,overall,1896.6,1992
+Sabah,1/1/1993,both,overall,overall,1981.9,1993
+Sabah,1/1/1994,both,overall,overall,2068.9,1994
+Sabah,1/1/1995,both,overall,overall,2155.9,1995
+Sabah,1/1/1996,both,overall,overall,2245,1996
+Sabah,1/1/1997,both,overall,overall,2333.7,1997
+Sabah,1/1/1998,both,overall,overall,2423.5,1998
+Sabah,1/1/1999,both,overall,overall,2513.5,1999
+Sabah,1/1/2000,both,overall,overall,2603.5,2000
+Sabah,1/1/2001,both,overall,overall,2663.3,2001
+Sabah,1/1/2002,both,overall,overall,2719.1,2002
+Sabah,1/1/2003,both,overall,overall,2774,2003
+Sabah,1/1/2004,both,overall,overall,2833.4,2004
+Sabah,1/1/2005,both,overall,overall,2897,2005
+Sabah,1/1/2006,both,overall,overall,2962.9,2006
+Sabah,1/1/2007,both,overall,overall,3032.3,2007
+Sabah,1/1/2008,both,overall,overall,3105.1,2008
+Sabah,1/1/2009,both,overall,overall,3181.1,2009
+Sabah,1/1/2010,both,overall,overall,3260,2010
+Sabah,1/1/2011,both,overall,overall,3345.5,2011
+Sabah,1/1/2012,both,overall,overall,3432.7,2012
+Sabah,1/1/2013,both,overall,overall,3611.5,2013
+Sabah,1/1/2014,both,overall,overall,3669.9,2014
+Sabah,1/1/2015,both,overall,overall,3720.5,2015
+Sabah,1/1/2016,both,overall,overall,3802.8,2016
+Sabah,1/1/2017,both,overall,overall,3855.9,2017
+Sabah,1/1/2018,both,overall,overall,3898.4,2018
+Sabah,1/1/2019,both,overall,overall,3904.4,2019
 Sabah,1/1/2020,both,overall,overall,3418.8,2020
+Sabah,1/1/2021,both,overall,overall,3412.6,2021
+Sabah,1/1/2022,both,overall,overall,3414.9,2022
+Sabah,1/1/2023,both,overall,overall,3596.7,2023
+Sabah,1/1/2024,both,overall,overall,3742.2,2024
+Sarawak,1/1/1970,both,overall,overall,1037,1970
+Sarawak,1/1/1971,both,overall,overall,1065.2,1971
+Sarawak,1/1/1972,both,overall,overall,1094.3,1972
+Sarawak,1/1/1973,both,overall,overall,1124.1,1973
+Sarawak,1/1/1974,both,overall,overall,1154.7,1974
+Sarawak,1/1/1975,both,overall,overall,1186.2,1975
+Sarawak,1/1/1976,both,overall,overall,1217.5,1976
+Sarawak,1/1/1977,both,overall,overall,1249.6,1977
+Sarawak,1/1/1978,both,overall,overall,1282.5,1978
+Sarawak,1/1/1979,both,overall,overall,1316.4,1979
+Sarawak,1/1/1980,both,overall,overall,1351.1,1980
+Sarawak,1/1/1981,both,overall,overall,1380.2,1981
+Sarawak,1/1/1982,both,overall,overall,1410.4,1982
+Sarawak,1/1/1983,both,overall,overall,1440.6,1983
+Sarawak,1/1/1984,both,overall,overall,1471.4,1984
+Sarawak,1/1/1985,both,overall,overall,1503.9,1985
+Sarawak,1/1/1986,both,overall,overall,1539.5,1986
+Sarawak,1/1/1987,both,overall,overall,1576,1987
+Sarawak,1/1/1988,both,overall,overall,1614.6,1988
+Sarawak,1/1/1989,both,overall,overall,1652.5,1989
+Sarawak,1/1/1990,both,overall,overall,1687.8,1990
+Sarawak,1/1/1991,both,overall,overall,1723.8,1991
+Sarawak,1/1/1992,both,overall,overall,1758.4,1992
+Sarawak,1/1/1993,both,overall,overall,1795.2,1993
+Sarawak,1/1/1994,both,overall,overall,1831.9,1994
+Sarawak,1/1/1995,both,overall,overall,1868.1,1995
+Sarawak,1/1/1996,both,overall,overall,1904.5,1996
+Sarawak,1/1/1997,both,overall,overall,1942.4,1997
+Sarawak,1/1/1998,both,overall,overall,1982.1,1998
+Sarawak,1/1/1999,both,overall,overall,2024.5,1999
+Sarawak,1/1/2000,both,overall,overall,2071.5,2000
+Sarawak,1/1/2001,both,overall,overall,2115.6,2001
+Sarawak,1/1/2002,both,overall,overall,2158.3,2002
+Sarawak,1/1/2003,both,overall,overall,2199,2003
+Sarawak,1/1/2004,both,overall,overall,2240.4,2004
+Sarawak,1/1/2005,both,overall,overall,2282.4,2005
+Sarawak,1/1/2006,both,overall,overall,2324.9,2006
+Sarawak,1/1/2007,both,overall,overall,2366.1,2007
+Sarawak,1/1/2008,both,overall,overall,2408.4,2008
+Sarawak,1/1/2009,both,overall,overall,2450.8,2009
+Sarawak,1/1/2010,both,overall,overall,2487.1,2010
+Sarawak,1/1/2011,both,overall,overall,2527.9,2011
+Sarawak,1/1/2012,both,overall,overall,2569.7,2012
+Sarawak,1/1/2013,both,overall,overall,2642.5,2013
+Sarawak,1/1/2014,both,overall,overall,2664,2014
+Sarawak,1/1/2015,both,overall,overall,2701.5,2015
+Sarawak,1/1/2016,both,overall,overall,2738.7,2016
+Sarawak,1/1/2017,both,overall,overall,2766.3,2017
+Sarawak,1/1/2018,both,overall,overall,2791.7,2018
+Sarawak,1/1/2019,both,overall,overall,2806,2019
 Sarawak,1/1/2020,both,overall,overall,2453.7,2020
+Sarawak,1/1/2021,both,overall,overall,2465.6,2021
+Sarawak,1/1/2022,both,overall,overall,2473.5,2022
+Sarawak,1/1/2023,both,overall,overall,2502.3,2023
+Sarawak,1/1/2024,both,overall,overall,2518.1,2024
+Selangor,1/1/1970,both,overall,overall,1696.4,1970
+Selangor,1/1/1971,both,overall,overall,1770.9,1971
+Selangor,1/1/1972,both,overall,overall,1846.7,1972
+Selangor,1/1/1973,both,overall,overall,1922.4,1973
+Selangor,1/1/1974,both,overall,overall,1997.9,1974
+Selangor,1/1/1975,both,overall,overall,2075.3,1975
+Selangor,1/1/1976,both,overall,overall,2154.3,1976
+Selangor,1/1/1977,both,overall,overall,2237.7,1977
+Selangor,1/1/1978,both,overall,overall,2320.9,1978
+Selangor,1/1/1979,both,overall,overall,2407.3,1979
+Selangor,1/1/1980,both,overall,overall,1524.1,1980
+Selangor,1/1/1981,both,overall,overall,1594.6,1981
+Selangor,1/1/1982,both,overall,overall,1668.3,1982
+Selangor,1/1/1983,both,overall,overall,1743.8,1983
+Selangor,1/1/1984,both,overall,overall,1822,1984
+Selangor,1/1/1985,both,overall,overall,1906.1,1985
+Selangor,1/1/1986,both,overall,overall,1992.6,1986
+Selangor,1/1/1987,both,overall,overall,2079.7,1987
+Selangor,1/1/1988,both,overall,overall,2166.9,1988
+Selangor,1/1/1989,both,overall,overall,2254.9,1989
+Selangor,1/1/1990,both,overall,overall,2345.4,1990
+Selangor,1/1/1991,both,overall,overall,2431.2,1991
+Selangor,1/1/1992,both,overall,overall,2605.6,1992
+Selangor,1/1/1993,both,overall,overall,2788.7,1993
+Selangor,1/1/1994,both,overall,overall,2978.5,1994
+Selangor,1/1/1995,both,overall,overall,3173.2,1995
+Selangor,1/1/1996,both,overall,overall,3371.1,1996
+Selangor,1/1/1997,both,overall,overall,3571.9,1997
+Selangor,1/1/1998,both,overall,overall,3777.5,1998
+Selangor,1/1/1999,both,overall,overall,3981.9,1999
+Selangor,1/1/2000,both,overall,overall,4188.9,2000
+Selangor,1/1/2001,both,overall,overall,4317.5,2001
+Selangor,1/1/2002,both,overall,overall,4446.3,2002
+Selangor,1/1/2003,both,overall,overall,4577.3,2003
+Selangor,1/1/2004,both,overall,overall,4712.8,2004
+Selangor,1/1/2005,both,overall,overall,4849.6,2005
+Selangor,1/1/2006,both,overall,overall,4986.2,2006
+Selangor,1/1/2007,both,overall,overall,5127.1,2007
+Selangor,1/1/2008,both,overall,overall,5268.5,2008
+Selangor,1/1/2009,both,overall,overall,5417.8,2009
+Selangor,1/1/2010,both,overall,overall,5502.1,2010
+Selangor,1/1/2011,both,overall,overall,5600.3,2011
+Selangor,1/1/2012,both,overall,overall,5702.4,2012
+Selangor,1/1/2013,both,overall,overall,5904.7,2013
+Selangor,1/1/2014,both,overall,overall,6051.3,2014
+Selangor,1/1/2015,both,overall,overall,6178,2015
+Selangor,1/1/2016,both,overall,overall,6291.5,2016
+Selangor,1/1/2017,both,overall,overall,6380.7,2017
+Selangor,1/1/2018,both,overall,overall,6475,2018
+Selangor,1/1/2019,both,overall,overall,6506.1,2019
 Selangor,1/1/2020,both,overall,overall,6994.4,2020
+Selangor,1/1/2021,both,overall,overall,7014.7,2021
+Selangor,1/1/2022,both,overall,overall,7050.3,2022
+Selangor,1/1/2023,both,overall,overall,7209.7,2023
+Selangor,1/1/2024,both,overall,overall,7363.4,2024
+Terengganu,1/1/1970,both,overall,overall,418.8,1970
+Terengganu,1/1/1971,both,overall,overall,429,1971
+Terengganu,1/1/1972,both,overall,overall,439.5,1972
+Terengganu,1/1/1973,both,overall,overall,451,1973
+Terengganu,1/1/1974,both,overall,overall,462,1974
+Terengganu,1/1/1975,both,overall,overall,474.9,1975
+Terengganu,1/1/1976,both,overall,overall,486.9,1976
+Terengganu,1/1/1977,both,overall,overall,500.9,1977
+Terengganu,1/1/1978,both,overall,overall,513.4,1978
+Terengganu,1/1/1979,both,overall,overall,527,1979
+Terengganu,1/1/1980,both,overall,overall,541.7,1980
+Terengganu,1/1/1981,both,overall,overall,560.8,1981
+Terengganu,1/1/1982,both,overall,overall,581.4,1982
+Terengganu,1/1/1983,both,overall,overall,602.9,1983
+Terengganu,1/1/1984,both,overall,overall,625.8,1984
+Terengganu,1/1/1985,both,overall,overall,651.6,1985
+Terengganu,1/1/1986,both,overall,overall,678.3,1986
+Terengganu,1/1/1987,both,overall,overall,704.3,1987
+Terengganu,1/1/1988,both,overall,overall,730.9,1988
+Terengganu,1/1/1989,both,overall,overall,757.3,1989
+Terengganu,1/1/1990,both,overall,overall,784.6,1990
+Terengganu,1/1/1991,both,overall,overall,810.7,1991
+Terengganu,1/1/1992,both,overall,overall,823.8,1992
+Terengganu,1/1/1993,both,overall,overall,836.5,1993
+Terengganu,1/1/1994,both,overall,overall,848.6,1994
+Terengganu,1/1/1995,both,overall,overall,860,1995
+Terengganu,1/1/1996,both,overall,overall,870.7,1996
+Terengganu,1/1/1997,both,overall,overall,880.4,1997
+Terengganu,1/1/1998,both,overall,overall,889.6,1998
+Terengganu,1/1/1999,both,overall,overall,896.6,1999
+Terengganu,1/1/2000,both,overall,overall,902.6,2000
+Terengganu,1/1/2001,both,overall,overall,920,2001
+Terengganu,1/1/2002,both,overall,overall,936.6,2002
+Terengganu,1/1/2003,both,overall,overall,951.4,2003
+Terengganu,1/1/2004,both,overall,overall,966.6,2004
+Terengganu,1/1/2005,both,overall,overall,981.4,2005
+Terengganu,1/1/2006,both,overall,overall,995.9,2006
+Terengganu,1/1/2007,both,overall,overall,1010.4,2007
+Terengganu,1/1/2008,both,overall,overall,1025.2,2008
+Terengganu,1/1/2009,both,overall,overall,1040.7,2009
+Terengganu,1/1/2010,both,overall,overall,1055.4,2010
+Terengganu,1/1/2011,both,overall,overall,1079,2011
+Terengganu,1/1/2012,both,overall,overall,1094.1,2012
+Terengganu,1/1/2013,both,overall,overall,1113.4,2013
+Terengganu,1/1/2014,both,overall,overall,1140.4,2014
+Terengganu,1/1/2015,both,overall,overall,1161,2015
+Terengganu,1/1/2016,both,overall,overall,1183.4,2016
+Terengganu,1/1/2017,both,overall,overall,1208,2017
+Terengganu,1/1/2018,both,overall,overall,1228.3,2018
+Terengganu,1/1/2019,both,overall,overall,1244.5,2019
 Terengganu,1/1/2020,both,overall,overall,1149.4,2020
-Kuala Lumpur,1/1/2020,both,overall,overall,1982.1,2020
+Terengganu,1/1/2021,both,overall,overall,1170.7,2021
+Terengganu,1/1/2022,both,overall,overall,1186.6,2022
+Terengganu,1/1/2023,both,overall,overall,1210,2023
+Terengganu,1/1/2024,both,overall,overall,1232.1,2024
+Kuala Lumpur,1/1/1980,both,overall,overall,982.9,1980
+Kuala Lumpur,1/1/1981,both,overall,overall,1006.1,1981
+Kuala Lumpur,1/1/1982,both,overall,overall,1028.5,1982
+Kuala Lumpur,1/1/1983,both,overall,overall,1050.7,1983
+ Kuala Lumpur,1/1/1984,both,overall,overall,1072.2,1984
+ Kuala Lumpur,1/1/1985,both,overall,overall,1095.9,1985
+ Kuala Lumpur,1/1/1986,both,overall,overall,1120.5,1986
+ Kuala Lumpur,1/1/1987,both,overall,overall,1144.9,1987
+ Kuala Lumpur,1/1/1988,both,overall,overall,1169.6,1988
+ Kuala Lumpur,1/1/1989,both,overall,overall,1194.1,1989
+ Kuala Lumpur,1/1/1990,both,overall,overall,1217.8,1990
+ Kuala Lumpur,1/1/1991,both,overall,overall,1262.1,1991
+ Kuala Lumpur,1/1/1992,both,overall,overall,1281.5,1992
+ Kuala Lumpur,1/1/1993,both,overall,overall,1298.7,1993
+ Kuala Lumpur,1/1/1994,both,overall,overall,1314.4,1994
+ Kuala Lumpur,1/1/1995,both,overall,overall,1328.9,1995
+ Kuala Lumpur,1/1/1996,both,overall,overall,1342.5,1996
+ Kuala Lumpur,1/1/1997,both,overall,overall,1356.4,1997
+ Kuala Lumpur,1/1/1998,both,overall,overall,1373,1998
+ Kuala Lumpur,1/1/1999,both,overall,overall,1394,1999
+ Kuala Lumpur,1/1/2000,both,overall,overall,1416,2000
+ Kuala Lumpur,1/1/2001,both,overall,overall,1446.2,2001
+ Kuala Lumpur,1/1/2002,both,overall,overall,1474.1,2002
+ Kuala Lumpur,1/1/2003,both,overall,overall,1500.5,2003
+ Kuala Lumpur,1/1/2004,both,overall,overall,1526.4,2004
+ Kuala Lumpur,1/1/2005,both,overall,overall,1551.8,2005
+ Kuala Lumpur,1/1/2006,both,overall,overall,1577.5,2006
+ Kuala Lumpur,1/1/2007,both,overall,overall,1603.3,2007
+ Kuala Lumpur,1/1/2008,both,overall,overall,1628.9,2008
+ Kuala Lumpur,1/1/2009,both,overall,overall,1652.8,2009
+ Kuala Lumpur,1/1/2010,both,overall,overall,1674.8,2010
+ Kuala Lumpur,1/1/2011,both,overall,overall,1693,2011
+ Kuala Lumpur,1/1/2012,both,overall,overall,1702.1,2012
+ Kuala Lumpur,1/1/2013,both,overall,overall,1723.4,2013
+ Kuala Lumpur,1/1/2014,both,overall,overall,1737.4,2014
+ Kuala Lumpur,1/1/2015,both,overall,overall,1780.4,2015
+ Kuala Lumpur,1/1/2016,both,overall,overall,1789.7,2016
+ Kuala Lumpur,1/1/2017,both,overall,overall,1793.2,2017
+ Kuala Lumpur,1/1/2018,both,overall,overall,1790,2018
+ Kuala Lumpur,1/1/2019,both,overall,overall,1782.5,2019
+ Kuala Lumpur,1/1/2020,both,overall,overall,1982.1,2020
+ Kuala Lumpur,1/1/2021,both,overall,overall,1964,2021
+ Kuala Lumpur,1/1/2022,both,overall,overall,1961.2,2022
+ Kuala Lumpur,1/1/2023,both,overall,overall,2005.7,2023
+ Kuala Lumpur,1/1/2024,both,overall,overall,2067.5,2024
+Labuan,1/1/1991,both,overall,overall,52.9,1991
+Labuan,1/1/1992,both,overall,overall,55.4,1992
+Labuan,1/1/1993,both,overall,overall,57.9,1993
+Labuan,1/1/1994,both,overall,overall,60.3,1994
+Labuan,1/1/1995,both,overall,overall,62.7,1995
+Labuan,1/1/1996,both,overall,overall,65.1,1996
+Labuan,1/1/1997,both,overall,overall,67.7,1997
+Labuan,1/1/1998,both,overall,overall,70.5,1998
+Labuan,1/1/1999,both,overall,overall,73.3,1999
+Labuan,1/1/2000,both,overall,overall,76.1,2000
+Labuan,1/1/2001,both,overall,overall,77,2001
+Labuan,1/1/2002,both,overall,overall,77.8,2002
+Labuan,1/1/2003,both,overall,overall,78.7,2003
+Labuan,1/1/2004,both,overall,overall,79.7,2004
+Labuan,1/1/2005,both,overall,overall,80.8,2005
+Labuan,1/1/2006,both,overall,overall,82,2006
+Labuan,1/1/2007,both,overall,overall,83.2,2007
+Labuan,1/1/2008,both,overall,overall,84.6,2008
+Labuan,1/1/2009,both,overall,overall,86.3,2009
+Labuan,1/1/2010,both,overall,overall,88.2,2010
+Labuan,1/1/2011,both,overall,overall,89.4,2011
+Labuan,1/1/2012,both,overall,overall,90.5,2012
+Labuan,1/1/2013,both,overall,overall,91.4,2013
+Labuan,1/1/2014,both,overall,overall,93.8,2014
+Labuan,1/1/2015,both,overall,overall,95.1,2015
+Labuan,1/1/2016,both,overall,overall,96.8,2016
+Labuan,1/1/2017,both,overall,overall,97.6,2017
+Labuan,1/1/2018,both,overall,overall,99,2018
+Labuan,1/1/2019,both,overall,overall,99.3,2019
 Labuan,1/1/2020,both,overall,overall,95.1,2020
+Labuan,1/1/2021,both,overall,overall,96,2021
+Labuan,1/1/2022,both,overall,overall,96.9,2022
+Labuan,1/1/2023,both,overall,overall,99,2023
+Labuan,1/1/2024,both,overall,overall,100.8,2024
+Putrajaya,1/1/2010,both,overall,overall,73.4,2010
+Putrajaya,1/1/2011,both,overall,overall,77.5,2011
+Putrajaya,1/1/2012,both,overall,overall,78.3,2012
+Putrajaya,1/1/2013,both,overall,overall,79.7,2013
+Putrajaya,1/1/2014,both,overall,overall,80.9,2014
+Putrajaya,1/1/2015,both,overall,overall,83,2015
+Putrajaya,1/1/2016,both,overall,overall,84.4,2016
+Putrajaya,1/1/2017,both,overall,overall,87.5,2017
+Putrajaya,1/1/2018,both,overall,overall,97.2,2018
+Putrajaya,1/1/2019,both,overall,overall,103.7,2019
 Putrajaya,1/1/2020,both,overall,overall,109.2,2020
+Putrajaya,1/1/2021,both,overall,overall,115.2,2021
+Putrajaya,1/1/2022,both,overall,overall,117,2022
+Putrajaya,1/1/2023,both,overall,overall,118.8,2023
+Putrajaya,1/1/2024,both,overall,overall,120.3,2024
