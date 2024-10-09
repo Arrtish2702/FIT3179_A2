@@ -1,96 +1,29 @@
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-}
-
-.page {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 20px;
+body * {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+  }
+  
+  body {
+    background-color: lightgray;
+  }
+  
+  .page {
+    width: 95%;
+    max-width: 1200px;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Prevents content overflow */
-}
-
-h1, h3 {
-    text-align: center;
-    color: #333;
-}
-
-h3 {
-    margin-top: 40px;
-}
-
-/* Flexbox layout for visualizations and descriptions */
-.vis-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px; /* Space between the map and bar chart sections */
-    margin-bottom: 20px;
-}
-
-.vis-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px; /* Space between the visualization and the description */
-}
-
-.vis-item {
-    flex-basis: 75%; /* Now takes up 75% of the width */
-    max-width: 100%; /* Ensures the visualization doesn't overflow */
-    min-width: 0; /* Prevents overflow */
-    box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
-    position: relative; /* Allows for child elements to position correctly */
-    /*height: 100%; /* Set to fill the height of the parent */
-}
-
-.description {
-    flex-basis: 25%; /* Now takes up 25% of the width */
-    text-align: left;
-    font-size: 16px;
-    color: #555;
-    padding: 0 10px; /* Space inside the description box */
-}
-
-/* Separator line */
-.hr3 {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, transparent, #DDD, transparent);
-}
-
-/* Styling for data source */
-.data-source {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-}
-
-.data-source a {
-    color: #1e90ff;
-    text-decoration: none;
-}
-
-.data-source a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive styling for smaller screens */
-@media (max-width: 768px) {
-    .vis-row {
-        flex-direction: column;
-    }
-
-    .description {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    #choropleth_map, #bar_chart {
-        height: auto; /* Allow height to adjust based on content */
-    }
-}
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .vis-container {
+    width: 100%;
+    height: 400px; /* Set height for visualization containers */
+    padding: 20px;
+  }
+  
+  .pure-g {
+    margin-bottom: 40px;
+  }
