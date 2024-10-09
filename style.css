@@ -56,14 +56,6 @@ h3 {
     padding: 0 10px; /* Space inside the description box */
 }
 
-/* Container for map and bar chart */
-#choropleth_map {
-    width: 100%;  /* Set to 100% to fill its parent container */
-    height: 100%; /* Set to 100% to fill its parent container */
-    max-height: 500px; /* You can adjust this as needed */
-    box-sizing: border-box; /* Include padding/borders in size calculation */
-}
-
 /* Separator line */
 .hr3 {
     border: 0;
