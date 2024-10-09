@@ -63,19 +63,11 @@
     <script type="text/javascript">
         // Embed Choropleth Map
         var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-map-arrtish.vg.json";
-        vegaEmbed('#choropleth_map', spec1,options1).catch(console.error);
-
-        var options1 = {
-            actions: false  // Disable all actions including export
-        };
+        vegaEmbed('#choropleth_map', spec1, {"actions": false}).catch(console.error);
 
         // Embed Bar Chart
         var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-bar-idiom-arrtish.vg.json";
-        vegaEmbed('#bar_chart', spec2, options2).catch(console.error);
-
-        var options1 = {
-            actions: false  // Disable all actions including export
-        };
+        vegaEmbed('#bar_chart', spec2, {"actions": false}).catch(console.error);
 
     </script>
 
