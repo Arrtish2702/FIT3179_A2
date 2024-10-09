@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population of Malaysian States - Stacked Bar Chart with Interactions",
+    "title": "Population Distribution of Malaysian States (Every 5 Years)",
     "width": 750,
     "height": 386,
     "config": {
@@ -26,6 +26,9 @@
         },
         {
             "filter": "yearSelection === 'All' || datum.state == yearSelection"
+        },
+        {
+            "filter": "datum.year % 5 == 0"  
         }
     ],
     "params": [
