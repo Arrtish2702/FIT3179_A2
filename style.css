@@ -23,33 +23,48 @@ h3 {
     margin-top: 40px;
 }
 
-/* Flexbox layout for visualizations */
+/* Flexbox layout for visualizations and descriptions */
 .vis-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px; /* Space between the map and bar chart */
+    flex-direction: column;
+    gap: 30px; /* Space between the map and bar chart sections */
     margin-bottom: 20px;
 }
 
+.vis-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between the visualization and the description */
+}
+
+/* Visualization items (map and bar chart) */
 .vis-item {
-    flex: 1;
+    flex-basis: 60%; /* Takes 60% of the width */
     min-width: 0; /* Prevents overflow */
+}
+
+/* Description items */
+.description {
+    flex-basis: 35%; /* Takes 35% of the width */
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    padding: 0 10px; /* Space inside the description box */
+}
+
+/* Description styling */
+.description h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #333;
 }
 
 /* Container for map and bar chart */
 #choropleth_map, #bar_chart {
     width: 100%;
     height: 500px; /* Adjust height as needed */
-}
-
-/* Description styling */
-.description {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 16px;
-    color: #555;
-    max-width: 900px;
 }
 
 /* Separator line */
@@ -59,6 +74,7 @@ h3 {
     background-image: linear-gradient(to right, transparent, #DDD, transparent);
 }
 
+/* Styling for data source */
 .data-source {
     text-align: center;
     margin-top: 40px;
@@ -72,4 +88,16 @@ h3 {
 
 .data-source a:hover {
     text-decoration: underline;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .vis-row {
+        flex-direction: column;
+    }
+
+    .description {
+        text-align: center;
+        margin-top: 20px;
+    }
 }

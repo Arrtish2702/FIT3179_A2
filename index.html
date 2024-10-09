@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malaysian Population Visualization (2020)</title>
+    <title>Population Shifts in Malaysia: Visualizing Key Trends (1970–2024)</title>
 
     <!-- Vega and Vega-Lite libraries for interactive visualizations -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
@@ -17,31 +17,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 
     <!-- Custom CSS for styling -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
     <div class="page">
         <!-- Page title and description -->
-        <h1>Population of Malaysian States (2020)</h1>
+        <h1>"Population Shifts in Malaysia: Visualizing Key Trends (1970–2024)"</h1>
         <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed bar chart.</p>
 
-        <!-- Container for visualizations (Map on the left, Bar chart on the right) -->
+        <!-- Container for visualizations (Choropleth map and Bar chart with descriptions) -->
         <div class="vis-container">
-            <!-- Choropleth Map (left) -->
-            <div class="vis-item" id="choropleth_map"></div>
-            <div class="description">
-                <strong>Bar Chart Description:</strong> The bar chart offers a more detailed look at the population of each Malaysian state in 2020. Each bar represents the population size for a specific state, allowing for easy comparison across states. You can hover over the bars to see precise population numbers. States such as Selangor, Sabah, and Sarawak show significantly higher populations compared to smaller states like Perlis and Labuan.
+            
+            <!-- Choropleth Map and its description -->
+            <div class="vis-row">
+                <div class="vis-item" id="choropleth_map"></div>
+                <div class="description">
+                    <strong>Choropleth Map Description:</strong>
+                    This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
+                </div>
             </div>
-            <!-- Bar Chart (right) -->
-            <div class="vis-item" id="bar_chart"></div>
-            <!-- Description for both visualizations -->
-            <div class="description">
-                <strong>Choropleth Map Description:</strong> This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
+
+            <!-- Bar Chart and its description -->
+            <div class="vis-row">
+                <div class="description">
+                    <strong>Bar Chart Description:</strong>
+                    The bar chart offers a more detailed look at the population of each Malaysian state in 2020. Each bar represents the population size for a specific state, allowing for easy comparison across states. You can hover over the bars to see precise population numbers. States such as Selangor, Sabah, and Sarawak show significantly higher populations compared to smaller states like Perlis and Labuan.
+                </div>
+                <div class="vis-item" id="bar_chart"></div>
             </div>
         </div>
+
         <hr class="hr3">
+        
         <!-- Data source and acknowledgments -->
         <h3>Data Source:</h3>
         <p class="data-source">
