@@ -31,22 +31,23 @@ h3 {
 }
 
 .vis-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically if needed */
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 15px; /* Space between rows */
 }
 
 .vis-item-map {
-    flex-basis: 80%; /* Now takes up 75% of the width */
     max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
     position: relative; /* Allows for child elements to position correctly */
-    /*height: 100%; /* Set to fill the height of the parent */
+    margin: 0 auto; /* Center the element */
+    margin-bottom: 15px; /* Space below the map */
 }
 
 .description-map {
-    flex-basis: 20%; /* Now takes up 25% of the width */
     text-align: left;
     font-size: 16px;
     color: #555;

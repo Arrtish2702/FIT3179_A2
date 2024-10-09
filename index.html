@@ -29,13 +29,12 @@
 
     <div class="page" style="margin-bottom: 3%;">
         <!-- Container for visualizations (Choropleth map and Bar chart with descriptions) -->
-        <div class="vis-container">
+        <div class="vis-container"></div>
             <!-- Choropleth Map and its description -->
             <div class="vis-row">
-                <div class="vis-item-map" id="choropleth_map" style="font-size: 18px;"></div>
-                <div class="description-map">
-                    This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
-                </div>
+            <div class="vis-item-map" id="choropleth_map" style="font-size: 20px;"></div>
+            <div class="description-map">
+                This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
             </div>
         </div>
     </div>
@@ -64,11 +63,20 @@
     <script type="text/javascript">
         // Embed Choropleth Map
         var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-map-arrtish.vg.json";
-        vegaEmbed('#choropleth_map', spec1).catch(console.error);
+        vegaEmbed('#choropleth_map', spec1,options1).catch(console.error);
+
+        var options1 = {
+            actions: false  // Disable all actions including export
+        };
 
         // Embed Bar Chart
         var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-bar-idiom-arrtish.vg.json";
-        vegaEmbed('#bar_chart', spec2).catch(console.error);
+        vegaEmbed('#bar_chart', spec2, options2).catch(console.error);
+
+        var options1 = {
+            actions: false  // Disable all actions including export
+        };
+
     </script>
 
 </body>
