@@ -12,6 +12,7 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents content overflow */
 }
 
 h1, h3 {
@@ -38,13 +39,13 @@ h3 {
     gap: 20px; /* Space between the visualization and the description */
 }
 
-/* Visualization items (map and bar chart) */
 .vis-item {
     flex-basis: 60%; /* Takes 60% of the width */
+    max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
+    box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
 }
 
-/* Description items */
 .description {
     flex-basis: 35%; /* Takes 35% of the width */
     text-align: left;
@@ -53,18 +54,12 @@ h3 {
     padding: 0 10px; /* Space inside the description box */
 }
 
-/* Description styling */
-.description h3 {
-    text-align: left;
-    margin-bottom: 10px;
-    font-weight: 700;
-    color: #333;
-}
-
 /* Container for map and bar chart */
 #choropleth_map, #bar_chart {
     width: 100%;
+    max-width: 100%; /* Ensures it stays within the bounds of its container */
     height: 500px; /* Adjust height as needed */
+    box-sizing: border-box; /* Include padding/borders in size calculation */
 }
 
 /* Separator line */
@@ -99,5 +94,9 @@ h3 {
     .description {
         text-align: center;
         margin-top: 20px;
+    }
+
+    #choropleth_map, #bar_chart {
+        height: auto; /* Allow height to adjust based on content */
     }
 }
