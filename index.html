@@ -1,44 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysian Population Visualization (2020)</title>
+
+    <!-- Vega and Vega-Lite libraries for interactive visualizations -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
-    
-    <!-- Import pure.css -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google font -->
+    <!-- Pure CSS for a minimalist layout -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <!-- CSS file -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <!-- Custom CSS for styling -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
-  
-    <!-- Separate containers for each visualization -->
-    <div id="choropleth_map"></div>
-    <div id="bar_chart"></div>
 
+    <div class="page">
+        <!-- Page title and description -->
+        <h1>Population of Malaysian States (2020)</h1>
+        <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed bar chart.</p>
+
+        <!-- Container for visualizations -->
+        <div class="vis-container">
+            <!-- Choropleth Map -->
+            <div id="choropleth_map" style="width: 100%;"></div>
+            <hr class="hr3">
+
+            <!-- Bar Chart -->
+            <div id="bar_chart" style="width: 100%;"></div>
+        </div>
+
+        <!-- Data source and acknowledgments -->
+        <h3>Data Source:</h3>
+        <p class="data-source">
+            <a href="https://data.gov.my/data-catalogue/population_state" target="_blank">https://data.gov.my/data-catalogue/population_state</a>
+        </p>
+    </div>
+
+    <!-- Embedding Vega specifications for visualizations -->
     <script type="text/javascript">
-        // Load the choropleth map
+        // Embed Choropleth Map
         var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/wk10-map-arrtish.vg.json";
-            vegaEmbed('#choropleth_map', spec1).then(function(result) {
-        // Access the Vega view instance
-        }).catch(console.error);
+        vegaEmbed('#choropleth_map', spec1).catch(console.error);
 
-        // Load the bar chart
+        // Embed Bar Chart
         var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/wk10-bar-idiom-arrtish.vg.json";
-            vegaEmbed('#bar_chart', spec2).then(function(result) {
-        // Access the Vega view instance
-        }).catch(console.error);
+        vegaEmbed('#bar_chart', spec2).catch(console.error);
     </script>
-    <h3>
-        Data Source: <a href="https://data.gov.my/data-catalogue/population_state" target="_blank">https://data.gov.my/data-catalogue/population_state</a>
-    </h3>
-      
+
 </body>
 </html>
