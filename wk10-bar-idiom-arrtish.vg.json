@@ -1,77 +1,75 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Population of Malaysian States - Bar Chart with Interactions",
-    "width": 600,
-    "height": 400,
-    
+    "width": "container",  
+    "height": "container",  
     "config": {
         "background": "#ffffff",
         "view": {
-        "stroke": "#000000",  
-        "strokeWidth": 2      
+            "stroke": "#000000",  
+            "strokeWidth": 2      
         }
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/population_state_with_year.csv",
-      "format": {"type": "csv"}
+        "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/population_state_with_year.csv",
+        "format": {"type": "csv"}
     },
     "transform": [
-      {
-        "filter": "datum.year == yearSelection"
-      },
-      {
-        "filter": "datum.sex == 'both'"
-      },
-      {
-        "filter": "datum.age == 'overall'"
-      },
-      {
-        "filter": "datum.ethnicity == 'overall'"
-      }
+        {
+            "filter": "datum.year == yearSelection"
+        },
+        {
+            "filter": "datum.sex == 'both'"
+        },
+        {
+            "filter": "datum.age == 'overall'"
+        },
+        {
+            "filter": "datum.ethnicity == 'overall'"
+        }
     ],
     "params": [
-      {
-        "name": "yearSelection",
-        "value": 2000, 
-        "bind": {
-          "input": "range",
-          "min": 1970,
-          "max": 2024,
-          "step": 1,
-          "name": "Select Year: "
+        {
+            "name": "yearSelection",
+            "value": 2000, 
+            "bind": {
+                "input": "range",
+                "min": 1970,
+                "max": 2024,
+                "step": 1,
+                "name": "Select Year: "
+            }
         }
-      }
     ],
     "layer": [
-      {
-        "mark": "bar",
-        "encoding": {
-          "x": {
-            "field": "state",
-            "type": "nominal",
-            "axis": {"title": "State"}
-          },
-          "y": {
-            "field": "population",
-            "type": "quantitative",
-            "axis": {"title": "Population"},
-            "scale": {
-              "domain": [0, 8000] 
+        {
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "state",
+                    "type": "nominal",
+                    "axis": {"title": "State"}
+                },
+                "y": {
+                    "field": "population",
+                    "type": "quantitative",
+                    "axis": {"title": "Population"},
+                    "scale": {
+                        "domain": [0, 8000] 
+                    }
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "scale": {"scheme": "accent"},
+                    "legend": {"title": "State"}
+                },
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"field": "population", "type": "quantitative", "title": "Population"},
+                    {"field": "year", "type": "nominal", "title": "Year"}
+                ]
             }
-          },
-        "color": {
-            "field": "state",
-            "type": "nominal",
-            "scale": {"scheme":"accent"},
-            "legend": {"title": "State"}
-        },
-          "tooltip": [
-            {"field": "state", "type": "nominal", "title": "State"},
-            {"field": "population", "type": "quantitative", "title": "Population"},
-            {"field": "year", "type": "nominal", "title": "Year"}
-          ]
         }
-      }
     ]
-  }
-  
+}
