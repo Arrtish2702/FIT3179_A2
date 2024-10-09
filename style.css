@@ -45,7 +45,7 @@ h3 {
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
     position: relative; /* Allows for child elements to position correctly */
-    height: 100%; /* Set to fill the height of the parent */
+    /*height: 100%; /* Set to fill the height of the parent */
 }
 
 .description {
