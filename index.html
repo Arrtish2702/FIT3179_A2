@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 
     <!-- Custom CSS for styling -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -31,29 +31,32 @@
             
             <!-- Choropleth Map and its description -->
             <div class="vis-row">
-                <div class="vis-item" id="choropleth_map" style="height: 500px;"></div>
-                <div class="description">
+                <div class="vis-item-map" id="choropleth_map"></div>
+                <div class="description-map">
                     <strong>Choropleth Map Description:</strong>
                     This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
                 </div>
             </div>
 
+            <!-- Horizontal Separator Line -->
+            <hr class="hr3">
+
             <!-- Bar Chart and its description -->
             <div class="vis-row">
-                <div class="description">
+                <div class="description-bar">
                     <strong>Bar Chart Description:</strong>
-                    The bar chart offers a more detailed look at the population of each Malaysian state in 2020. Each bar represents the population size for a specific state, allowing for easy comparison across states. You can hover over the bars to see precise population numbers. States such as Selangor, Sabah, and Sarawak show significantly higher populations compared to smaller states like Perlis and Labuan.
+                    The bar chart offers a more detailed look at the population of each Malaysian state across the years. Each bar represents the population size for a specific state, allowing for easy comparison across states. You can hover over the bars to see precise population numbers, and use the slider below the chart to show the changes across years. States such as Selangor, Sabah, and Sarawak show significantly higher populations compared to smaller states like Perlis and Labuan.
                 </div>
-                <div class="vis-item" id="bar_chart"></div>
+                <div class="vis-item-bar" id="bar_chart"></div>
             </div>
         </div>
 
-        <hr class="hr3">
+        
         
         <!-- Data source and acknowledgments -->
-        <h3>Data Source:</h3>
+        <h3></h3>
         <p class="data-source">
-            <a href="https://data.gov.my/data-catalogue/population_state" target="_blank">https://data.gov.my/data-catalogue/population_state</a>
+            <a href="https://data.gov.my/data-catalogue/population_state" target="_blank"><h2>Data Source</h2></a>
         </p>
     </div>
 
@@ -64,7 +67,7 @@
         vegaEmbed('#choropleth_map', spec1).catch(console.error);
 
         // Embed Bar Chart
-        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-bar-idiom-arrtish.vg.json";
+        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179-WK10/main/wk10-bar-idiom-arrtish.vg.json";
         vegaEmbed('#bar_chart', spec2).catch(console.error);
     </script>
 

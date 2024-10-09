@@ -1,13 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population of Malaysian States - Bar Chart with Interactions",
-    "width": 750,  
-    "height": 386,  
+    "title": "Population of Malaysian States - Stacked Bar Chart with Interactions",
+    "width": 750,
+    "height": 386,
     "config": {
         "background": "#ffffff",
         "view": {
-            "stroke": "#000000",  
-            "strokeWidth": 2      
+            "stroke": "#000000",
+            "strokeWidth": 2
         }
     },
     "data": {
@@ -16,9 +16,6 @@
     },
     "transform": [
         {
-            "filter": "datum.year == yearSelection"
-        },
-        {
             "filter": "datum.sex == 'both'"
         },
         {
@@ -26,18 +23,37 @@
         },
         {
             "filter": "datum.ethnicity == 'overall'"
+        },
+        {
+            "filter": "yearSelection === 'All' || datum.state == yearSelection"
         }
     ],
     "params": [
         {
             "name": "yearSelection",
-            "value": 2000, 
+            "value": "All",
             "bind": {
-                "input": "range",
-                "min": 1970,
-                "max": 2024,
-                "step": 1,
-                "name": "Select Year: "
+                "input": "select",
+                "options": [
+                    "All",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Penang",
+                    "Perak",
+                    "Perlis",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Putrajaya",
+                    "Labuan"
+                ],
+                "name": "Select State: "
             }
         }
     ],
@@ -46,17 +62,15 @@
             "mark": "bar",
             "encoding": {
                 "x": {
-                    "field": "state",
-                    "type": "nominal",
-                    "axis": {"title": "State"}
+                    "field": "year",
+                    "type": "ordinal",
+                    "axis": {"title": "Year"}
                 },
                 "y": {
+                    "aggregate": "sum",
                     "field": "population",
                     "type": "quantitative",
-                    "axis": {"title": "Population"},
-                    "scale": {
-                        "domain": [0, 8000] 
-                    }
+                    "axis": {"title": "Population"}
                 },
                 "color": {
                     "field": "state",
@@ -66,7 +80,7 @@
                 },
                 "tooltip": [
                     {"field": "state", "type": "nominal", "title": "State"},
-                    {"field": "population", "type": "quantitative", "title": "Population"},
+                    {"aggregate": "sum", "field": "population", "type": "quantitative", "title": "Population"},
                     {"field": "year", "type": "nominal", "title": "Year"}
                 ]
             }
