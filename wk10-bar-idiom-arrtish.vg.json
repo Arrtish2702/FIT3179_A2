@@ -2,10 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
         "text": "Population Distribution of Malaysian States (Every 5 Years)",
-        "fontSize": 24 
+        "fontSize": 28 
     },
-    "width": 750,
-    "height": 386,
+    "width": 700,
+    "height": 380,
     "config": {
         "background": "#ffffff",
         "view": {
@@ -70,19 +70,31 @@
                 "x": {
                     "field": "year",
                     "type": "ordinal",
-                    "axis": {"title": "Year"}
+                    "axis": {
+                        "title": "Year",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16    
+                    }
                 },
                 "y": {
                     "aggregate": "sum",
                     "field": "population",
                     "type": "quantitative",
-                    "axis": {"title": "Population"}
+                    "axis": {
+                        "title": "Population",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16   
+                    }
                 },
                 "color": {
                     "field": "state",
                     "type": "nominal",
                     "scale": {"scheme": "accent"},
-                    "legend": {"title": "State"}
+                    "legend": {
+                        "title": "State",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16    
+                    }
                 },
                 "tooltip": [
                     {"field": "state", "type": "nominal", "title": "State"},

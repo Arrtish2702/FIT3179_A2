@@ -2,10 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
         "text": "Population of Malaysian States (2024)",
-        "fontSize": 24
+        "fontSize": 28
     },
-    "width": 738,
-    "height": 386,
+    "width": 700,
+    "height": 380,
     "config": {
         "background": "#a8cde0"
     },
