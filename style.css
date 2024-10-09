@@ -40,14 +40,14 @@ h3 {
 }
 
 .vis-item {
-    flex-basis: 60%; /* Takes 60% of the width */
+    flex-basis: 75%; /* Now takes up 75% of the width */
     max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
 }
 
 .description {
-    flex-basis: 35%; /* Takes 35% of the width */
+    flex-basis: 25%; /* Now takes up 25% of the width */
     text-align: left;
     font-size: 16px;
     color: #555;
