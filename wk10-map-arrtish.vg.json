@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Population of Malaysian States (2020)",
-    "width": "container",  
-    "height": "container",  
+    "width": 750,  
+    "height": 386,  
     "config": {
       "background": "#a8cde0"
     },
