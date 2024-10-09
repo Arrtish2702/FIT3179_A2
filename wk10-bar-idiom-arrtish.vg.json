@@ -4,8 +4,8 @@
         "text": "Population Distribution of Malaysian States (Every 5 Years)",
         "fontSize": 28 
     },
-    "width": 700,
-    "height": 380,
+    "width": 900,
+    "height": 480,
     "config": {
         "background": "#ffffff",
         "view": {
