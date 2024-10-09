@@ -1,10 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population of Malaysian States (2024)",
-    "width": 738,  
-    "height": 386,  
+    "title": {
+        "text": "Population of Malaysian States (2024)",
+        "fontSize": 24
+    },
+    "width": 738,
+    "height": 386,
     "config": {
-      "background": "#a8cde0"
+        "background": "#a8cde0"
     },
     "projection": {"type": "equalEarth"},
     "layer": [
@@ -28,15 +31,35 @@
         ],
         "mark": {
           "type": "geoshape",
-          "stroke": "black",       
-          "strokeWidth": 0.5     
+          "stroke": "black",
+          "strokeWidth": 0.5
         },
         "encoding": {
-          "color": {
-            "field": "population",
-            "type": "quantitative",
-            "scale": {"type": "linear", "scheme": "yellowgreenblue"}
-          },
+            "color": {
+                "field": "population",
+                "type": "quantitative",
+                "scale": {
+                    "type": "threshold", 
+                    "domain": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000], 
+                    "range": [
+                        "#DEEDCF",           
+                        "#B8DEAA",           
+                        "#88CE86",                
+                        "#62BE73",                     
+                        "#3FAC6C",                          
+                        "#1D9A6C",                          
+                        "#198C75",
+                        "#147E7B",
+                        "#116270", 
+                        "#0D4761",
+                        "#0A2F51" 
+                    ]
+                },
+                "legend": {
+                    "title": "Population",
+                    "format": ","  
+                }
+            },
           "tooltip": [
             {"field": "properties.NAME_1", "type": "nominal", "title": "State"},
             {"field": "population", "type": "quantitative", "title": "Population"}
