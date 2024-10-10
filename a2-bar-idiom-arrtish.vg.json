@@ -24,7 +24,7 @@
             "filter": "datum.ethnicity == 'overall'"
         },
         {
-            "filter": "yearSelection === 'All' || datum.state == yearSelection"
+            "filter": "stateSelection === 'All' || datum.state == stateSelection"
         },
         {
             "filter": "datum.year % 5 == 0"  
@@ -32,7 +32,7 @@
     ],
     "params": [
         {
-            "name": "yearSelection",
+            "name": "stateSelection",
             "value": "All",
             "bind": {
                 "input": "select",
