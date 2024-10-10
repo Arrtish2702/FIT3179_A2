@@ -2,10 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 900,
     "height": 480,
-    "title": {
-      "text": "Ethnicity Distribution by State for 2024",
-      "fontSize": 28  
-    },
     "config": {
       "background": "#ffffff",
       "view": {

@@ -1,9 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "Population Distribution of Malaysian States (Every 5 Years)",
-        "fontSize": 28 
-    },
     "width": 900,
     "height": 480,
     "config": {
