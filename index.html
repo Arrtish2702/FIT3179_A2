@@ -37,8 +37,8 @@
                         Population of Malaysian States (2024)
                     </strong>
                 </div>
-                <div class="vis-item-map" id="choropleth_map" style="font-size: 20px;"></div>
-                <div class="description-map">
+                <div class="vis-item-map" id="choropleth_map"></div>
+                <div class="description-map" style="font-size: 18px;">
                     This map represents the population density of Malaysian states for the year 2020. Each state is shaded according to its population size, with darker colors indicating more densely populated areas. The map provides a clear geographical overview of population distribution, highlighting states like Selangor and Johor as heavily populated regions.
                 </div>
         </div>
@@ -55,6 +55,18 @@
             </div>
         </div>
     </div>
+
+    <div class="page">
+        <div class="vis-container">
+            <!-- Bar Chart and its description -->
+            <div class="vis-row">
+                <div class="vis-item-pie" id="pie_chart"></div>
+                <div class="description-pie" style="font-size: 18px;">
+                    The pie chart provides a comprehensive view of the ethnicity distribution across Malaysian states, focusing on data from 1980 to 2024. 
+                </div>
+            </div>
+        </div>
+    </div>
         
     <div class="page">    
         <!-- Data source and acknowledgments -->
@@ -67,11 +79,19 @@
     <!-- Embedding Vega specifications for visualizations -->
     <script type="text/javascript">
         // Embed Choropleth Map
-        var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-map-arrtish.vg.json";
+        var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-map-arrtish.vg.json";
         vegaEmbed('#choropleth_map', spec1, {"actions": false}).catch(console.error);
 
         // Embed Bar Chart
-        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/wk10-bar-idiom-arrtish.vg.json";
+        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-bar-idiom-arrtish.vg.json";
+        vegaEmbed('#bar_chart', spec2, {"actions": false}).catch(console.error);
+
+        // Embed Choropleth Map
+        var spec3 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-pie-ethn.vg.json";
+        vegaEmbed('#choropleth_map', spec3, {"actions": false}).catch(console.error);
+
+        // Embed Bar Chart
+        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-bar-idiom-arrtish.vg.json";
         vegaEmbed('#bar_chart', spec2, {"actions": false}).catch(console.error);
 
     </script>

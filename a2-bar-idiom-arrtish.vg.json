@@ -1,0 +1,107 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Population Distribution of Malaysian States (Every 5 Years)",
+        "fontSize": 28 
+    },
+    "width": 900,
+    "height": 480,
+    "config": {
+        "background": "#ffffff",
+        "view": {
+            "stroke": "#000000",
+            "strokeWidth": 2
+        }
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv",
+        "format": {"type": "csv"}
+    },
+    "transform": [
+        {
+            "filter": "datum.sex == 'both'"
+        },
+        {
+            "filter": "datum.age == 'overall'"
+        },
+        {
+            "filter": "datum.ethnicity == 'overall'"
+        },
+        {
+            "filter": "yearSelection === 'All' || datum.state == yearSelection"
+        },
+        {
+            "filter": "datum.year % 5 == 0"  
+        }
+    ],
+    "params": [
+        {
+            "name": "yearSelection",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Penang",
+                    "Perak",
+                    "Perlis",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Putrajaya",
+                    "Labuan"
+                ],
+                "name": "Select State: "
+            }
+        }
+    ],
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "axis": {
+                        "title": "Year",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16    
+                    }
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "population",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Population",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16   
+                    }
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "scale": {"scheme":"category20"},
+                    "legend": {
+                        "title": "State",
+                        "labelFontSize": 14,  
+                        "titleFontSize": 16    
+                    }
+                },
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"aggregate": "sum", "field": "population", "type": "quantitative", "title": "Population"},
+                    {"field": "year", "type": "nominal", "title": "Year"}
+                ]
+            }
+        }
+    ]
+}

@@ -2,18 +2,76 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 900,
     "height": 480,
+    "title": {
+      "text": "Ethnicity Distribution by State for 2024",
+      "fontSize": 28  
+    },
     "config": {
-        "background": "#ffffff",
-        "view": {
-            "stroke": "#000000",
-            "strokeWidth": 2
-        }
+      "background": "#ffffff",
+      "view": {
+        "stroke": "#000000",
+        "strokeWidth": 2
+      }
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year_filtered.csv"
+      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv"
     },
     "transform": [
-      {"filter": {"field": "state", "equal": "Johor"}}  
+      {
+        "filter": "datum.sex == 'both'"
+      },
+      {
+        "filter": "datum.age == 'overall'"
+      },
+      {
+        "filter": "datum.ethnicity != 'overall' && datum.ethnicity != 'bumi' && datum.ethnicity != 'other'"
+      },
+      {
+        "filter": "stateSelection === 'All' || datum.state == stateSelection"
+      },
+      {
+        "filter": "datum.year == yearSelection"
+      }
+    ],
+    "params": [
+      {
+        "name": "stateSelection",
+        "value": "All",
+        "bind": {
+          "input": "select",
+          "options": [
+            "All",
+            "Johor",
+            "Kedah",
+            "Kelantan",
+            "Melaka",
+            "Negeri Sembilan",
+            "Pahang",
+            "Penang",
+            "Perak",
+            "Perlis",
+            "Sabah",
+            "Sarawak",
+            "Selangor",
+            "Terengganu",
+            "Kuala Lumpur",
+            "Putrajaya",
+            "Labuan"
+          ],
+          "name": "Select State: "
+        }
+      },
+      {
+        "name": "yearSelection",
+        "value": 2024,
+        "bind": {
+          "input": "range",
+          "min": 1980,
+          "max": 2024,
+          "step": 1,
+          "name": "Select Year: "
+        }
+      }
     ],
     "mark": "arc",
     "encoding": {
@@ -27,7 +85,6 @@
         "type": "nominal",
         "title": "Ethnicity"
       }
-    },
-    "title": "Ethnicity Distribution in Johor"  
+    }
   }
   
