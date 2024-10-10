@@ -83,7 +83,28 @@
       "color": {
         "field": "ethnicity",
         "type": "nominal",
-        "title": "Ethnicity"
+        "title": "Ethnicity",
+        "scale": {
+            "domain": [
+                "chinese",
+                "indian",
+                "bumi_malay",
+                "bumi_other",
+                "other_citizen",
+                "other_noncitizen"
+            ],
+            "range": [
+              "#FF0000",  
+              "#FFA500",  
+              "#008000",  
+              "#0000FF",  
+              "#FFFF00",  
+              "#FFC0CB"   
+            ]
+          },            
+          "legend": {
+            "labelExpr": "datum.value == 'chinese' ? 'Chinese' : datum.value == 'indian' ? 'Indian' : datum.value == 'bumi_malay' ? 'Bumiputera Malay' : datum.value == 'bumi_other' ? 'Bumiputera Other' : datum.value == 'other_citizen' ? 'Other Citizen' : 'Other Non-Citizen'"
+        }
       }
     }
   }
