@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 900,
+    "height": 480,
+    "config": {
+        "background": "#ffffff",
+        "view": {
+            "stroke": "#000000",
+            "strokeWidth": 2
+        }
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year_filtered.csv"
+    },
+    "transform": [
+      {"filter": {"field": "state", "equal": "Johor"}}  
+    ],
+    "mark": "arc",
+    "encoding": {
+      "theta": {
+        "field": "population",
+        "type": "quantitative",
+        "title": "Population"
+      },
+      "color": {
+        "field": "ethnicity",
+        "type": "nominal",
+        "title": "Ethnicity"
+      }
+    },
+    "title": "Ethnicity Distribution in Johor"  
+  }
+  

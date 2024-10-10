@@ -89,7 +89,7 @@
                 "color": {
                     "field": "state",
                     "type": "nominal",
-                    "scale": {"scheme": "accent"},
+                    "scale": {"scheme":"category20"},
                     "legend": {
                         "title": "State",
                         "labelFontSize": 14,  
