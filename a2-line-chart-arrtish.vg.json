@@ -25,9 +25,6 @@
         },
         {
             "filter": "stateSelection === 'All' || datum.state == stateSelection"
-        },
-        {
-            "filter": "datum.year % 5 == 0"  
         }
     ],
     "params": [
@@ -111,6 +108,29 @@
                     "titleFontSize": 16
                     }
                 },                  
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"aggregate": "sum", "field": "population", "type": "quantitative", "title": "Population"},
+                    {"field": "year", "type": "nominal", "title": "Year"}
+                ]
+            }
+        },
+        {
+            "mark": "point",
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "population",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal"
+                },
                 "tooltip": [
                     {"field": "state", "type": "nominal", "title": "State"},
                     {"aggregate": "sum", "field": "population", "type": "quantitative", "title": "Population"},
