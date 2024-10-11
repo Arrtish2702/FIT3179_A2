@@ -90,7 +90,11 @@
                     }
                 },
                 "color": {
-                    "value": "#4B86E4"
+                    "value": "#4B86E4",
+                    "legend": {
+                        "title": "Male Population",
+                        "orient": "right"
+                    }
                 },
                 "tooltip": [
                     {
@@ -103,6 +107,11 @@
                         "field": "state",
                         "type": "nominal",
                         "title": "State"
+                    },
+                    {
+                        "field": "sex",
+                        "type": "nominal",
+                        "title": "Sex"
                     }
                 ]
             }
@@ -134,7 +143,11 @@
                     }
                 },
                 "color": {
-                    "value": "#FF69B4"
+                    "value": "#FF69B4",
+                    "legend": {
+                        "title": "Female Population",
+                        "orient": "right"
+                    }
                 },
                 "tooltip": [
                     {
@@ -147,22 +160,14 @@
                         "field": "state",
                         "type": "nominal",
                         "title": "State"
+                    },
+                    {
+                        "field": "sex",
+                        "type": "nominal",
+                        "title": "Sex"
                     }
                 ]
             }
         }
-    ],
-    "encoding": {
-        "color": {
-            "field": "sex",
-            "type": "nominal",
-            "scale": {
-                "domain": ["male", "female"],
-                "range": ["#4B86E4", "#FF69B4"]
-            },
-            "legend": {
-                "title": "Sex"
-            }
-        }
-    }
+    ]
 }
