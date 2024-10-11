@@ -3,78 +3,120 @@
     "width": 800,
     "height": 600,
     "config": {
-      "background": "#ffffff"
+        "background": "#ffffff"
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv"
+        "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv"
     },
+    "params": [
+        {
+            "name": "yearSelection",
+            "value": 2024,
+            "bind": {
+                "input": "range",
+                "min": 1980,
+                "max": 2024,
+                "step": 1,
+                "name": "Select Year: "
+            }
+        },
+        {
+            "name": "stateSelection",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Pulau Pinang",
+                    "Perak",
+                    "Perlis",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Putrajaya",
+                    "Labuan"
+                ],
+                "name": "Select State: "
+            }
+        }
+    ],
     "transform": [
-      {
-        "filter": "datum.year == 2024"
-      },
-      {
-        "filter": "datum.age != 'overall'"
-      }
+        {
+            "filter": "datum.year == yearSelection"
+        },
+        {
+            "filter": "stateSelection === 'All' || datum.state == stateSelection"
+        },
+        {
+            "filter": "datum.age != 'overall'"
+        }
     ],
     "layer": [
-      {
-        "mark": "bar",
-        "transform": [
-          {
-            "calculate": "-datum.population",
-            "as": "population_neg"
-          }
-        ],
-        "encoding": {
-          "y": {
-            "field": "age",
-            "type": "ordinal",
-            "title": "Age Group",
-            "axis": {
-              "labelAngle": 0,
-              "orient": "left" 
+        {
+            "mark": "bar",
+            "transform": [
+                {
+                    "calculate": "-datum.population",
+                    "as": "population_neg"
+                }
+            ],
+            "encoding": {
+                "y": {
+                    "field": "age",
+                    "type": "ordinal",
+                    "title": "Age Group",
+                    "axis": {
+                        "labelAngle": 0,
+                        "orient": "left"
+                    }
+                },
+                "x": {
+                    "field": "population_neg",
+                    "type": "quantitative",
+                    "title": "Population",
+                    "axis": {
+                        "format": ",d"
+                    }
+                },
+                "color": {
+                    "value": "#4B86E4"
+                }
             }
-          },
-          "x": {
-            "field": "population_neg",
-            "type": "quantitative",
-            "title": "Population",
-            "axis": {
-              "format": ",d"
+        },
+        {
+            "mark": "bar",
+            "encoding": {
+                "y": {
+                    "field": "age",
+                    "type": "ordinal",
+                    "title": "Age Group",
+                    "axis": {
+                        "labelAngle": 0,
+                        "orient": "left"
+                    }
+                },
+                "x": {
+                    "field": "population",
+                    "type": "quantitative",
+                    "title": "Population",
+                    "axis": {
+                        "format": ",d",
+                        "orient": "top"
+                    }
+                },
+                "color": {
+                    "value": "#FF69B4"
+                }
             }
-          },
-          "color": {
-            "value": "#4B86E4" 
-          }
         }
-      },
-      {
-        "mark": "bar",
-        "encoding": {
-        "y": {
-            "field": "age",
-            "type": "ordinal",
-            "title": "Age Group",
-            "axis": {
-                "labelAngle": 0,
-                "orient": "left" 
-            }
-            },
-          "x": {
-            "field": "population",
-            "type": "quantitative",
-            "title": "Population",
-            "axis": {
-              "format": ",d",
-              "orient": "top" 
-            }
-          },
-          "color": {
-            "value": "#FF69B4" 
-          }
-        }
-      }
     ],
     "title": "Population Pyramid for 2024 by Age and Sex"
-  }
-  
+}
