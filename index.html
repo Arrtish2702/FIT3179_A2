@@ -24,7 +24,7 @@
     <div class="page">
         <!-- Page title and description -->
         <h1>Population Shifts in Malaysia: Visualizing Key Trends (1970–2024)</h1>
-        <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed bar chart.</p>
+        <p style="text-align: center;">Interactive visualizations depicting the population distribution across Malaysian states. Below you can explore both a choropleth map and a detailed line chart.</p>
     </div>
 
     <div class="page">
@@ -46,16 +46,16 @@
     
     <div class="page">
         <div class="vis-container">
-            <!-- Bar Chart and its description -->
+            <!-- Line Chart and its description -->
             <div class="vis-row">
-                <div class="title-bar" style="font-size: 30px; margin-bottom: 1%;">
+                <div class="title-line" style="font-size: 30px; margin-bottom: 1%;">
                     <strong>
                         Population Distribution of Malaysian States (Every 5 Years)
                     </strong>
                 </div>
-                <div class="vis-item-bar" id="bar_chart"></div>
-                <div class="description-bar" style="font-size: 18px;">
-                    The bar chart provides a comprehensive view of the population distribution across Malaysian states, focusing on data collected every five years. 
+                <div class="vis-item-line" id="line_chart"></div>
+                <div class="description-line" style="font-size: 18px;">
+                    The line chart provides a comprehensive view of the population distribution across Malaysian states, focusing on data collected every five years. 
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
 
     <div class="page">
         <div class="vis-container">
-            <!-- Bar Chart and its description -->
+            <!-- Pie Chart and its description -->
             <div class="vis-row">
                 <div class="title-map-pie" style="font-size: 30px; margin-bottom: 1%;">
                     <strong>
@@ -77,6 +77,24 @@
             </div>
         </div>
     </div>
+    
+    <div class="page">
+        <div class="vis-container">
+            <!-- Bar Chart and its description -->
+            <div class="vis-row">
+                <div class="title-bar" style="font-size: 30px; margin-bottom: 1%;">
+                    <strong>
+                        Gender distribution by Age MY
+                    </strong>
+                </div>
+                <div class="vis-item-bar" id="bar_chart"></div>
+                <div class="description-bar" style="font-size: 18px;">
+                    The bar chart provides a comprehensive view of the population distribution across Malaysian states, focusing on data collected every five years. 
+                </div>
+            </div>
+        </div>
+    </div>
+
         
     <div class="page">    
         <!-- Data source and acknowledgments -->
@@ -92,17 +110,17 @@
         var spec1 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-map-arrtish.vg.json";
         vegaEmbed('#choropleth_map', spec1, {"actions": false}).catch(console.error);
 
-        // Embed Bar Chart
-        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-bar-idiom-arrtish.vg.json";
-        vegaEmbed('#bar_chart', spec2, {"actions": false}).catch(console.error);
+        // Embed Line Chart
+        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-line-chart-arrtish.vg.json";
+        vegaEmbed('#line_chart', spec2, {"actions": false}).catch(console.error);
 
         // Embed Choropleth Map
         var spec3 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-pie-ethn.vg.json";
         vegaEmbed('#pie_chart', spec3, {"actions": false}).catch(console.error);
 
         // Embed Bar Chart
-        var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-bar-idiom-arrtish.vg.json";
-        vegaEmbed('#bar_chart', spec2, {"actions": false}).catch(console.error);
+        var spec4 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-pop-pyr-arrtish.vg.json";
+        vegaEmbed('#bar_chart', spec5, {"actions": false}).catch(console.error);
 
     </script>
 

@@ -38,7 +38,7 @@ h3 {
     padding: 20px;
 }
 
-.vis-item-map, .vis-item-bar, .vis-item-pie {
+.vis-item-map, vis-item-line, .vis-item-bar, .vis-item-pie {
     max-width: 100%; /* Ensures the visualization doesn't overflow */
     min-width: 0; /* Prevents overflow */
     box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
@@ -47,7 +47,7 @@ h3 {
     margin-bottom: 15px; /* Space below the map */
 }
 
-.description-map, .description-bar, .description-pie {
+.description-map, description-line, .description-bar, .description-pie {
     text-align: left;
     font-size: 16px;
     color: #555;
