@@ -64,6 +64,10 @@
             "mark": "bar",
             "transform": [
                 {
+                    "filter": "datum.sex == 'male'",
+                    "type": "filter"
+                },
+                {
                     "calculate": "-datum.population",
                     "as": "population_neg"
                 }
@@ -88,11 +92,40 @@
                 },
                 "color": {
                     "value": "#4B86E4"
-                }
+                },
+                "tooltip": [
+                    {
+                        "field": "age",
+                        "type": "ordinal",
+                        "title": "Age Group"
+                    },
+                    {
+                        "field": "population",
+                        "type": "quantitative",
+                        "title": "Population",
+                        "format": ",d"
+                    },
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    }
+                ]
             }
         },
         {
             "mark": "bar",
+            "transform": [
+                {
+                    "filter": "datum.sex == 'female'",
+                    "type": "filter"
+                }
+            ],
             "encoding": {
                 "y": {
                     "field": "age",
@@ -114,7 +147,30 @@
                 },
                 "color": {
                     "value": "#FF69B4"
-                }
+                },
+                "tooltip": [
+                    {
+                        "field": "age",
+                        "type": "ordinal",
+                        "title": "Age Group"
+                    },
+                    {
+                        "field": "population",
+                        "type": "quantitative",
+                        "title": "Population",
+                        "format": ",d"
+                    },
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    }
+                ]
             }
         }
     ]
