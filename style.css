@@ -32,22 +32,20 @@ h3 {
 
 .vis-row {
     display: flex; /* Use flexbox layout */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically if needed */
-    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: flex-start; /* Align items to the start */
     padding: 20px;
 }
 
-.vis-item-map, vis-item-line, .vis-item-bar, .vis-item-pie {
-    max-width: 100%; /* Ensures the visualization doesn't overflow */
-    min-width: 0; /* Prevents overflow */
-    box-sizing: border-box; /* Ensures padding and borders are included in width calculations */
-    position: relative; /* Allows for child elements to position correctly */
-    margin: 0 auto; /* Center the element */
-    margin-bottom: 15px; /* Space below the map */
+.vis-item-map, .vis-item-line, .vis-item-bar, .vis-item-pie {
+    max-width: 60%; /* Set a max width for the visualizations */
+    min-width: 0; /* Prevent overflow */
+    box-sizing: border-box; /* Ensure padding and borders are included */
+    margin-right: 20px; /* Add space between the graph and description */
 }
 
-.description-map, description-line, .description-bar, .description-pie {
+.description-map, .description-line, .description-bar, .description-pie {
+    max-width: 35%; /* Set a max width for the descriptions */
     text-align: left;
     font-size: 16px;
     color: #555;

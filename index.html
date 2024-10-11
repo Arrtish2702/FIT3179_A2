@@ -34,14 +34,17 @@
         <div class="vis-container">
             <!-- Choropleth Map and its description -->
             <div class="vis-row">
-                <div class="title-map" style="font-size: 30px; margin-bottom: 1%;">
+                <div class="vis-item-map" id="choropleth_map"></div>
+                <div class="description-map">
                     <strong>
                         State Population Distribution in Malaysia (2024)
                     </strong>
-                </div>
-                <div class="vis-item-map" id="choropleth_map"></div>
-                <div class="description-map" style="font-size: 18px;">
-                    The map displays Malaysia’s state populations for 2024, highlighting differences in population size. It shows how urban hubs like Selangor and Kuala Lumpur dominate in numbers, offering a up-to-date overview of Malaysia’s population distribution.
+                    <p>
+                        The map displays Malaysia’s state populations for 2024. 
+                        It highlights differences in population size across states. 
+                        Urban hubs like Selangor and Kuala Lumpur dominate numbers, 
+                        providing an up-to-date overview of population distribution.    
+                    </p>
                 </div>
             </div>
         </div>
@@ -51,14 +54,17 @@
         <div class="vis-container">
             <!-- Line Chart and its description -->
             <div class="vis-row">
-                <div class="title-line" style="font-size: 30px; margin-bottom: 1%;">
+                <div class="vis-item-line" id="line_chart"></div>
+                <div class="description-line">
                     <strong>
                         Population Growth Trends Across Malaysian States (1970-2024)
                     </strong>
-                </div>
-                <div class="vis-item-line" id="line_chart"></div>
-                <div class="description-line" style="font-size: 18px;">
-                    This line graph tracks population growth across states from 1970 to 2024. It reveals long-term trends, showing rapid growth in urban areas while rural regions remain more static. This provides historical context for understanding regional demographic shifts. Filter the map by state to get a closer look.    
+                    <p>
+                        This line graph tracks population growth across states from 1970. 
+                        It reveals long-term trends in urban and rural areas. 
+                        Urban areas show rapid growth, while rural regions remain static. 
+                        Use filters to examine specific states in detail.    
+                    </p>
                 </div>
             </div>
         </div>
@@ -68,14 +74,14 @@
         <div class="vis-container">
             <!-- Pie Chart and its description -->
             <div class="vis-row">
-                <div class="title-map-pie" style="font-size: 30px; margin-bottom: 1%;">
+                <div class="vis-item-pie" id="pie_chart"></div>
+                <div class="description-pie">
                     <strong>
                         Ethnic Diversity Across Malaysian States (Annual Distribution)
                     </strong>
-                </div>
-                <div class="vis-item-pie" id="pie_chart"></div>
-                <div class="description-pie" style="font-size: 18px;">
-                    The pie chart illustrates the ethnic composition of each state, showcasing Malaysia’s multicultural fabric. By visualizing changes over time, it displays shifts in ethnic proportions since 1980, driven by migration and societal changes in different regions. Filter to see individual states, or move the slider to see how ethnic diversity has changed over time.    
+                    <p>
+                        The pie chart illustrates the ethnic composition of each state, showcasing Malaysia’s multicultural fabric. By visualizing changes over time, it displays shifts in ethnic proportions since 1980, driven by migration and societal changes in different regions. Filter to see individual states, or move the slider to see how ethnic diversity has changed over time.    
+                    </p>
                 </div>
             </div>
         </div>
@@ -85,20 +91,19 @@
         <div class="vis-container">
             <!-- Bar Chart and its description -->
             <div class="vis-row">
-                <div class="title-bar" style="font-size: 30px; margin-bottom: 1%;">
+                <div class="vis-item-bar" id="bar_chart"></div>
+                <div class="description-bar">
                     <strong>
                         Gender distribution by Age MY
                     </strong>
-                </div>
-                <div class="vis-item-bar" id="bar_chart"></div>
-                <div class="description-bar" style="font-size: 18px;">
-                    The population pyramid visualizes the age and sex distribution per state, with blue representing the male population and pink representing the female population. It shows how Malaysia's demographic has evolved over time as factors such as life expectancy and birth rate change. It highlights aging trends in some states and youthful populations in others, offering insights into workforce and social dynamics. This graph may help illustrate the impact of historical events on the birth and death rates of each generation.    
+                    <p>
+                        The population pyramid visualizes the age and sex distribution per state, with blue representing the male population and pink representing the female population. It shows how Malaysia's demographic has evolved over time as factors such as life expectancy and birth rate change. It highlights aging trends in some states and youthful populations in others, offering insights into workforce and social dynamics. This graph may help illustrate the impact of historical events on the birth and death rates of each generation.    
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-        
     <div class="page">    
         <!-- Data source and acknowledgments -->
         <h3></h3>
@@ -117,14 +122,13 @@
         var spec2 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-line-chart-arrtish.vg.json";
         vegaEmbed('#line_chart', spec2, {"actions": false}).catch(console.error);
 
-        // Embed Choropleth Map
+        // Embed Pie Chart
         var spec3 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-pie-ethn.vg.json";
         vegaEmbed('#pie_chart', spec3, {"actions": false}).catch(console.error);
 
         // Embed Bar Chart
         var spec4 = "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/a2-pop-pyr-arrtish.vg.json";
         vegaEmbed('#bar_chart', spec4, {"actions": false}).catch(console.error);
-
     </script>
 
 </body>
