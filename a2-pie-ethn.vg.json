@@ -15,10 +15,11 @@
     "params": [
       {
         "name": "stateSelection",
-        "value": "Kuala Lumpur",
+        "value": "All",
         "bind": {
           "input": "select",
           "options": [
+            "All",
             "Johor",
             "Kedah",
             "Kelantan",
@@ -65,7 +66,7 @@
         "filter": "datum.year == yearSelection"
       },
       {
-        "filter": "datum.state == stateSelection"
+        "filter": "stateSelection === 'All' || datum.state == stateSelection"
       },
       {
         "joinaggregate": [
@@ -117,19 +118,7 @@
             "field": "state"
         },
         {
-            "field": "year"
-        },
-        {
-            "field": "age"
-        },
-        {
-            "field": "sex"
-        },
-        {
             "field": "population"
-        },
-        {
-            "field": "ethnicity"
         }
       ]
     }
