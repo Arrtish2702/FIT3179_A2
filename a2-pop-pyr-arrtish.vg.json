@@ -14,78 +14,69 @@
     },
     "transform": [
       {
-        "filter": "datum.year == 2024"  
+        "filter": "datum.year == 2024"
       },
       {
-        "filter": "datum.age != 'overall'"  
+        "filter": "datum.age != 'overall'"
       }
     ],
     "layer": [
       {
         "mark": "bar",
-        "encoding": {
-          "y": {
-            "field": "age", 
-            "type": "ordinal",
-            "title": "Age Group"
-          },
-          "x": {
-            "field": "population", 
-            "type": "quantitative",
-            "title": "Population",
-            "axis": {
-              "format": ","
-            }
-          },
-          "color": {
-            "field": "sex",
-            "type": "nominal",
-            "scale": {
-              "domain": ["male", "female"],
-              "range": ["#1f77b4", "#ff7f0e"] 
-            },
-            "legend": {
-              "title": "Sex"
-            }
-          }
-        }
-      },
-      {
-        "mark": "bar",
         "transform": [
           {
-            "calculate": "-datum.population", 
+            "calculate": "-datum.population",
             "as": "population_neg"
           }
         ],
         "encoding": {
           "y": {
-            "field": "age", 
+            "field": "age",
             "type": "ordinal",
-            "title": "Age Group"
+            "title": "Age Group",
+            "axis": {
+              "labelAngle": 0,
+              "orient": "left" 
+            }
           },
           "x": {
-            "field": "population_neg", 
+            "field": "population_neg",
             "type": "quantitative",
             "title": "Population",
             "axis": {
-              "format": ","
+              "format": ",d"
             }
           },
           "color": {
-            "field": "sex",
-            "type": "nominal",
-            "scale": {
-              "domain": ["male", "female"],
-              "range": ["#1f77b4", "#ff7f0e"]  
-            },
-            "legend": {
-              "title": "Sex"
+            "value": "#4B86E4" 
+          }
+        }
+      },
+      {
+        "mark": "bar",
+        "encoding": {
+          "y": {
+            "field": "age",
+            "type": "ordinal",
+            "title": null,
+            "axis": null
+          },
+          "x": {
+            "field": "population",
+            "type": "quantitative",
+            "title": "Population",
+            "axis": {
+              "format": ",d",
+              "orient": "top" 
             }
+          },
+          "color": {
+            "value": "#FF69B4" 
           }
         }
       }
     ],
+    "spacing": 0,
     "title": "Population Pyramid for 2024 by Age and Sex"
   }
   
