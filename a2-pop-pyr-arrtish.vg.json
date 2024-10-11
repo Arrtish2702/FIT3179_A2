@@ -64,8 +64,7 @@
             "mark": "bar",
             "transform": [
                 {
-                    "filter": "datum.sex == 'male'",
-                    "type": "filter"
+                    "filter": "datum.sex == 'male'"
                 },
                 {
                     "calculate": "-datum.population",
@@ -95,11 +94,6 @@
                 },
                 "tooltip": [
                     {
-                        "field": "age",
-                        "type": "ordinal",
-                        "title": "Age Group"
-                    },
-                    {
                         "field": "population",
                         "type": "quantitative",
                         "title": "Population",
@@ -109,11 +103,6 @@
                         "field": "state",
                         "type": "nominal",
                         "title": "State"
-                    },
-                    {
-                        "field": "sex",
-                        "type": "nominal",
-                        "title": "Sex"
                     }
                 ]
             }
@@ -122,8 +111,7 @@
             "mark": "bar",
             "transform": [
                 {
-                    "filter": "datum.sex == 'female'",
-                    "type": "filter"
+                    "filter": "datum.sex == 'female'"
                 }
             ],
             "encoding": {
@@ -150,11 +138,6 @@
                 },
                 "tooltip": [
                     {
-                        "field": "age",
-                        "type": "ordinal",
-                        "title": "Age Group"
-                    },
-                    {
                         "field": "population",
                         "type": "quantitative",
                         "title": "Population",
@@ -164,14 +147,22 @@
                         "field": "state",
                         "type": "nominal",
                         "title": "State"
-                    },
-                    {
-                        "field": "sex",
-                        "type": "nominal",
-                        "title": "Sex"
                     }
                 ]
             }
         }
-    ]
+    ],
+    "encoding": {
+        "color": {
+            "field": "sex",
+            "type": "nominal",
+            "scale": {
+                "domain": ["male", "female"],
+                "range": ["#4B86E4", "#FF69B4"]
+            },
+            "legend": {
+                "title": "Sex"
+            }
+        }
+    }
 }
