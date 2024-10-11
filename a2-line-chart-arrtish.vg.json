@@ -3,11 +3,7 @@
     "width": 900,
     "height": 480,
     "config": {
-        "background": "#ffffff",
-        "view": {
-            "stroke": "#000000",
-            "strokeWidth": 2
-        }
+        "background": "#ffffff"
     },
     "data": {
         "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv",

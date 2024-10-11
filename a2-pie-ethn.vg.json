@@ -3,124 +3,134 @@
     "width": 900,
     "height": 480,
     "config": {
-      "background": "#ffffff",
-      "view": {
-        "stroke": "#000000",
-        "strokeWidth": 2
-      }
+        "background": "#ffffff"
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv"
+        "url": "https://raw.githubusercontent.com/Arrtish2702/FIT3179_A2/main/population_state_with_year.csv"
     },
     "params": [
-      {
-        "name": "stateSelection",
-        "value": "All",
-        "bind": {
-          "input": "select",
-          "options": [
-            "All",
-            "Johor",
-            "Kedah",
-            "Kelantan",
-            "Melaka",
-            "Negeri Sembilan",
-            "Pahang",
-            "Pulau Pinang",
-            "Perak",
-            "Perlis",
-            "Sabah",
-            "Sarawak",
-            "Selangor",
-            "Terengganu",
-            "Kuala Lumpur",
-            "Putrajaya",
-            "Labuan"
-          ],
-          "name": "Select State: "
+        {
+            "name": "stateSelection",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Pulau Pinang",
+                    "Perak",
+                    "Perlis",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Putrajaya",
+                    "Labuan"
+                ],
+                "name": "Select State: "
+            }
+        },
+        {
+            "name": "yearSelection",
+            "value": 2024,
+            "bind": {
+                "input": "range",
+                "min": 1980,
+                "max": 2024,
+                "step": 1,
+                "name": "Select Year: "
+            }
         }
-      },
-      {
-        "name": "yearSelection",
-        "value": 2024,
-        "bind": {
-          "input": "range",
-          "min": 1980,
-          "max": 2024,
-          "step": 1,
-          "name": "Select Year: "
-        }
-      }
     ],
     "transform": [
-      {
-        "filter": "datum.sex == 'both'"
-      },
-      {
-        "filter": "datum.age == 'overall'"
-      },
-      {
-        "filter": "datum.ethnicity != 'overall' && datum.ethnicity != 'bumi' && datum.ethnicity != 'other'"
-      },
-      {
-        "filter": "datum.year == yearSelection"
-      },
-      {
-        "filter": "stateSelection === 'All' || datum.state == stateSelection"
-      },
-      {
-        "joinaggregate": [
-          {
-            "op": "sum",
-            "field": "population",
-            "as": "total_population"
-          }
-        ],
-        "groupby": ["ethnicity", "sex", "age", "year"]
-
-      }
+        {
+            "filter": "datum.sex == 'both'"
+        },
+        {
+            "filter": "datum.age == 'overall'"
+        },
+        {
+            "filter": "datum.ethnicity != 'overall' && datum.ethnicity != 'bumi' && datum.ethnicity != 'other'"
+        },
+        {
+            "filter": "datum.year == yearSelection"
+        },
+        {
+            "filter": "stateSelection === 'All' || datum.state == stateSelection"
+        },
+        {
+            "calculate": "datum.ethnicity == 'chinese' ? 'Chinese' : datum.ethnicity == 'indian' ? 'Indian' : datum.ethnicity == 'bumi_malay' ? 'Bumiputera Malay' : datum.ethnicity == 'bumi_other' ? 'Bumiputera Other' : datum.ethnicity == 'other_citizen' ? 'Other Citizen' : 'Other Non-Citizen'",
+            "as": "formatted_ethnicity"
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "sum",
+                    "field": "population",
+                    "as": "total_population"
+                }
+            ],
+            "groupby": ["ethnicity", "sex", "age", "year"]
+        }
     ],
     "mark": "arc",
     "encoding": {
-      "theta": {
-        "field": "total_population",
-        "type": "quantitative",
-        "title": "Population"
-      },
-      "color": {
-        "field": "ethnicity",
-        "type": "nominal",
-        "title": "Ethnicity",
-        "scale": {
-          "domain": [
-            "chinese",
-            "indian",
-            "bumi_malay",
-            "bumi_other",
-            "other_citizen",
-            "other_noncitizen"
-          ],
-          "range": [
-            "#363020",
-            "#A49966",
-            "#0D324D",
-            "#80cdc1",
-            "#dfc27d",
-            "#01665e"
-          ]
+        "theta": {
+            "field": "total_population",
+            "type": "quantitative",
+            "title": "Population"
         },
-        "legend": {
-          "labelExpr": "datum.value == 'chinese' ? 'Chinese' : datum.value == 'indian' ? 'Indian' : datum.value == 'bumi_malay' ? 'Bumiputera Malay' : datum.value == 'bumi_other' ? 'Bumiputera Other' : datum.value == 'other_citizen' ? 'Other Citizen' : 'Other Non-Citizen'"
-        }
-      },
-      "tooltip":[
-        {
-            "field": "state"
+        "color": {
+            "field": "formatted_ethnicity",
+            "type": "nominal",
+            "title": "Ethnicity",
+            "scale": {
+                "domain": [
+                    "Chinese",
+                    "Indian",
+                    "Bumiputera Malay",
+                    "Bumiputera Other",
+                    "Other Citizen",
+                    "Other Non-Citizen"
+                ],
+                "range": [
+                    "#80cdc1",            
+                    "#0D324D",
+                    "#20a5b5",
+                    "#363020",
+                    "#dfc27d",
+                    "#01665e"
+                ]
+            },
+            "legend": {
+                "title": "Ethnicity",
+                "values": [
+                    "Chinese",
+                    "Indian",
+                    "Bumiputera Malay",
+                    "Bumiputera Other",
+                    "Other Citizen",
+                    "Other Non-Citizen"
+                ]
+            }
         },
-        {
-            "field": "population"
-        }
-      ]
+        "tooltip": [
+            {
+                "field": "state"
+            },
+            {
+                "field": "population"
+            },
+            {
+                "field": "formatted_ethnicity",
+                "title": "Ethnicity"
+            }
+        ]
     }
-  }
-  
+}
