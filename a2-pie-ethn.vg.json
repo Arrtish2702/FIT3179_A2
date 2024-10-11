@@ -121,12 +121,8 @@
             }
         },
         "tooltip": [
-            {
-                "field": "state"
-            },
-            {
-                "field": "population"
-            },
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"aggregate": "sum", "field": "population", "type": "quantitative", "title": "Population"},
             {
                 "field": "formatted_ethnicity",
                 "title": "Ethnicity"

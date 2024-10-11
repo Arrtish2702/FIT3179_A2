@@ -31,7 +31,7 @@
 
     <div class="page">
         <!-- Container for visualizations (Choropleth map and Bar chart with descriptions) -->
-        <div class="vis-container"></div>
+        <div class="vis-container">
             <!-- Choropleth Map and its description -->
             <div class="vis-row">
                 <div class="title-map" style="font-size: 30px; margin-bottom: 1%;">
@@ -41,8 +41,9 @@
                 </div>
                 <div class="vis-item-map" id="choropleth_map"></div>
                 <div class="description-map" style="font-size: 18px;">
-                    The map displays Malaysia’s state populations for 2024, highlighting differences in population size. It shows how urban hubs like Selangor and Kuala Lumpur dominate in numbers, offering a snapshot of Malaysia’s demographic spread and urbanization trends.
+                    The map displays Malaysia’s state populations for 2024, highlighting differences in population size. It shows how urban hubs like Selangor and Kuala Lumpur dominate in numbers, offering a up-to-date overview of Malaysia’s population distribution.
                 </div>
+            </div>
         </div>
     </div>
     
@@ -57,7 +58,7 @@
                 </div>
                 <div class="vis-item-line" id="line_chart"></div>
                 <div class="description-line" style="font-size: 18px;">
-                    This line graph tracks population growth across states from 1970 to 2024. It reveals long-term trends, showing rapid growth in urban areas while rural regions remain more static. This provides historical context for understanding regional demographic shifts.    
+                    This line graph tracks population growth across states from 1970 to 2024. It reveals long-term trends, showing rapid growth in urban areas while rural regions remain more static. This provides historical context for understanding regional demographic shifts. Filter the map by state to get a closer look.    
                 </div>
             </div>
         </div>
@@ -74,7 +75,7 @@
                 </div>
                 <div class="vis-item-pie" id="pie_chart"></div>
                 <div class="description-pie" style="font-size: 18px;">
-                    The pie chart illustrates the ethnic composition of each state, showcasing Malaysia’s multicultural fabric. By visualizing changes over time, it highlights shifts in ethnic proportions driven by migration and societal changes in different regions.
+                    The pie chart illustrates the ethnic composition of each state, showcasing Malaysia’s multicultural fabric. By visualizing changes over time, it displays shifts in ethnic proportions since 1980, driven by migration and societal changes in different regions. Filter to see individual states, or move the slider to see how ethnic diversity has changed over time.    
                 </div>
             </div>
         </div>
@@ -86,7 +87,7 @@
             <div class="vis-row">
                 <div class="title-bar" style="font-size: 30px; margin-bottom: 1%;">
                     <strong>
-                        Age and Sex Demographics of Malaysian States (Annual Overview)
+                        Gender distribution by Age MY
                     </strong>
                 </div>
                 <div class="vis-item-bar" id="bar_chart"></div>
