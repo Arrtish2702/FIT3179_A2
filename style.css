@@ -1,9 +1,14 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url("ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: bottom; /* Anchors the image to the bottom */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
     margin: 0;
     padding: 0;
 }
+
 
 .page {
     max-width: 1200px;
